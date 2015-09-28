@@ -1,0 +1,4258 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js edition-domestic app-homepage"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 edition-domestic app-homepage" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 edition-domestic app-homepage" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 edition-domestic app-homepage" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+<style>
+/*
+ * ad_blocking.css: general ad-blocking
+ *   Last Update: Sat Jul 12 20:07:00 CDT 2008
+ *
+ * http://www.gozer.org/mozilla/ad_blocking/
+ */
+
+/* --- primary ------------------------------------------------------------ */
+
+/* images, plugins, iframes: domain-specific */
+a[href*="a.consumer.net"] img, *[src*="a.consumer.net"],
+a[href*="a.r.tv.com"] img, *[src*="a.r.tv.com"],
+a[href*="a.softpedia.com"] img, *[src*="a.softpedia.com"],
+a[href*="a.xanga.com"] img, *[src*="a.xanga.com"],
+a[href*="a32.g.a.yimg.com"] img, *[src*="a32.g.a.yimg.com"],
+a[href*="ad.abcnews.com"] img, *[src*="ad.abcnews.com"],
+a[href*="ad.abctv.com"] img, *[src*="ad.abctv.com"],
+a[href*="ad.about.com"] img, *[src*="ad.about.com"],
+a[href*="ad.asap-asp.net"] img, *[src*="ad.asap-asp.net"],
+a[href*="ad.disney.go.com"] img, *[src*="ad.disney.go.com"],
+a[href*="ad.dvdforum.nu"] img, *[src*="ad.dvdforum.nu"],
+a[href*="ad.howstuffworks.com"] img, *[src*="ad.howstuffworks.com"],
+a[href*="ad.img.yahoo.co.kr"] img, *[src*="ad.img.yahoo.co.kr"],
+a[href*="ad.infoseek.com"] img, *[src*="ad.infoseek.com"],
+a[href*="ad.isohunt.com"] img, *[src*="ad.isohunt.com"],
+a[href*="ad.musicmatch.com"] img, *[src*="ad.musicmatch.com"],
+a[href*="ad.preferences.com"] img, *[src*="ad.preferences.com"],
+a[href*="ad.tomshardware.com"] img, *[src*="ad.tomshardware.com"],
+a[href*="ad.uol.com.br"] img, *[src*="ad.uol.com.br"],
+a[href*="ad.usatoday.com"] img, *[src*="ad.usatoday.com"],
+a[href*="ad.yourmedia.com"] img, *[src*="ad.yourmedia.com"],
+a[href*="ad1.emule-project.org"] img, *[src*="ad1.emule-project.org"],
+a[href*="ad1.outpost.com"] img, *[src*="ad1.outpost.com"],
+a[href*="adbanner."] img, *[src*="adbanner."],
+a[href*="adbutler."] img, *[src*="adbutler."],
+a[href*="adclick."] img, *[src*="adclick."],
+a[href*="adfarm.mediaplex.com"] img, *[src*="adfarm.mediaplex.com"],
+a[href*="adfly.com"] img, *[src*="adfly.com"],
+a[href*="adimages."] img, *[src*="adimages."],
+a[href*="adimg."] img, *[src*="adimg."],
+a[href*="adireland.com"] img, *[src*="adireland.com"],
+a[href*="adlog.com"] img, *[src*="adlog.com"],
+a[href*="adq.nextag.com"] img, *[src*="adq.nextag.com"],
+a[href*="ads.advance.net"] img, *[src*="ads.advance.net"],
+a[href*="ads.affiliates.match.com"] img, *[src*="ads.affiliates.match.com"],
+a[href*="ads.allsites.com"] img, *[src*="ads.allsites.com"],
+a[href*="ads.amazingmedia.com"] img, *[src*="ads.amazingmedia.com"],
+a[href*="ads.aol.com"] img, *[src*="ads.aol.com"],
+a[href*="ads.bigfoot.com"] img, *[src*="ads.bigfoot.com"],
+a[href*="ads.cdfreaks.com"] img, *[src*="ads.cdfreaks.com"],
+a[href*="ads.clearchannel.com"] img, *[src*="ads.clearchannel.com"],
+a[href*="ads.cnn.com"] img, *[src*="ads.cnn.com"],
+a[href*="ads.com.com"] img, *[src*="ads.com.com"],
+a[href*="ads.deviantart.com"] img, *[src*="ads.deviantart.com"],
+a[href*="ads.discovery.com"] img, *[src*="ads.discovery.com"],
+a[href*="ads.eu.msn.com"] img, *[src*="ads.eu.msn.com"],
+a[href*="ads.eudora.com"] img, *[src*="ads.eudora.com"],
+a[href*="ads.ezboard.com"] img, *[src*="ads.ezboard.com"],
+a[href*="ads.firingsquad.com"] img, *[src*="ads.firingsquad.com"],
+a[href*="ads.forbes."] img, *[src*="ads.forbes."],
+a[href*="ads.g4techtv.com"] img, *[src*="ads.g4techtv.com"],
+a[href*="ads.gamespy.com"] img, *[src*="ads.gamespy.com"],
+a[href*="ads.gamespyid.com"] img, *[src*="ads.gamespyid.com"],
+a[href*="ads.guardian.co.uk"] img, *[src*="ads.guardian.co.uk"],
+a[href*="ads.hollywood.com"] img, *[src*="ads.hollywood.com"],
+a[href*="ads.icq.com"] img, *[src*="ads.icq.com"],
+a[href*="ads.ign.com"] img, *[src*="ads.ign.com"],
+a[href*="ads.imdb.com"] img, *[src*="ads.imdb.com"],
+a[href*="ads.img.co.za"] img, *[src*="ads.img.co.za"],
+a[href*="ads.indiatimes.com"] img, *[src*="ads.indiatimes.com"],
+a[href*="ads.infospace.com"] img, *[src*="ads.infospace.com"],
+a[href*="ads.iwon.com"] img, *[src*="ads.iwon.com"],
+a[href*="ads.linuxjournal.com"] img, *[src*="ads.linuxjournal.com"],
+a[href*="ads.linuxquestions.org"] img, *[src*="ads.linuxquestions.org"],
+a[href*="ads.lycos-europe.com"] img, *[src*="ads.lycos-europe.com"],
+a[href*="ads.lycos.com"] img, *[src*="ads.lycos.com"],
+a[href*="ads.macupdate.com"] img, *[src*="ads.macupdate.com"],
+a[href*="ads.mcafee.com"] img, *[src*="ads.mcafee.com"],
+a[href*="ads.monster.com"] img, *[src*="ads.monster.com"],
+a[href*="ads.msn.com"] img, *[src*="ads.msn.com"],
+a[href*="ads.neowin.net"] img, *[src*="ads.neowin.net"],
+a[href*="ads.nypost.com"] img, *[src*="ads.nypost.com"],
+a[href*="ads.nytimes.com"] img, *[src*="ads.nytimes.com"],
+a[href*="ads.osdn.com"] img, *[src*="ads.osdn.com"],
+a[href*="ads.osnews.com"] img, *[src*="ads.osnews.com"],
+a[href*="ads.phpclasses.org"] img, *[src*="ads.phpclasses.org"],
+a[href*="ads.rockstargames.com"] img, *[src*="ads.rockstargames.com"],
+a[href*="ads.rottentomatoes.com"] img, *[src*="ads.rottentomatoes.com"],
+a[href*="ads.scifi.com"] img, *[src*="ads.scifi.com"],
+a[href*="ads.simtel.net"] img, *[src*="ads.simtel.net"],
+a[href*="ads.space.com"] img, *[src*="ads.space.com"],
+a[href*="ads.stileproject.com"] img, *[src*="ads.stileproject.com"],
+a[href*="ads.techtv.com"] img, *[src*="ads.techtv.com"],
+a[href*="ads.telegraph.co.uk"] img, *[src*="ads.telegraph.co.uk"],
+a[href*="ads.theglobeandmail.com"] img, *[src*="ads.theglobeandmail.com"],
+a[href*="ads.thestar.com"] img, *[src*="ads.thestar.com"],
+a[href*="ads.thestranger.com"] img, *[src*="ads.thestranger.com"],
+a[href*="ads.tripod.com"] img, *[src*="ads.tripod.com"],
+a[href*="ads.tripod.lycos."] img, *[src*="ads.tripod.lycos."],
+a[href*="ads.usatoday.com"] img, *[src*="ads.usatoday.com"],
+a[href*="ads.weather.com"] img, *[src*="ads.weather.com"],
+a[href*="ads.web.aol.com"] img, *[src*="ads.web.aol.com"],
+a[href*="ads.web.cs.com"] img, *[src*="ads.web.cs.com"],
+a[href*="ads.web.de"] img, *[src*="ads.web.de"],
+a[href*="ads.winsite.com"] img, *[src*="ads.winsite.com"],
+a[href*="ads.wunderground.com"] img, *[src*="ads.wunderground.com"],
+a[href*="ads.x10.com"] img, *[src*="ads.x10.com"],
+a[href*="ads.x10.net"] img, *[src*="ads.x10.net"],
+a[href*="ads.zdnet.com"] img, *[src*="ads.zdnet.com"],
+a[href*="adserver."] img, *[src*="adserver."],
+a[href*="advertising.com"] img, *[src*="advertising.com"],
+a[href*="ar.atwola.com"] img, *[src*="ar.atwola.com"],
+a[href*="atdmt.com"] img, *[src*="atdmt.com"],
+a[href*="backbeatmedia.com"] img, *[src*="backbeatmedia.com"],
+a[href*="banner.casino.net"] img, *[src*="banner.casino.net"],
+a[href*="banner.img.co.za"] img, *[src*="banner.img.co.za"],
+a[href*="banner.penguin.cz"] img, *[src*="banner.penguin.cz"],
+a[href*="bannermania.nom.pl"] img, *[src*="bannermania.nom.pl"],
+a[href*="banners.dot.tk"] img, *[src*="banners.dot.tk"],
+a[href*="banners.ebay.com"] img, *[src*="banners.ebay.com"],
+a[href*="banners.friendfinder.com"] img, *[src*="banners.friendfinder.com"],
+a[href*="banners.netcraft.com"] img, *[src*="banners.netcraft.com"],
+a[href*="banners.wunderground.com"] img, *[src*="banners.wunderground.com"],
+a[href*="bannerserver.gator.com"] img, *[src*="bannerserver.gator.com"],
+a[href*="bfast.com"] img, *[src*="bfast.com"],
+a[href*="bluestreak.com"] img, *[src*="bluestreak.com"],
+a[href*="bs00"][href*=".gmx.net"] img, *[src*="bs00"][src*=".gmx.net"],
+a[href*="c1.zedo.com"] img, *[src*="c1.zedo.com"],
+a[href*="cash4banner.com"] img, *[src*="cash4banner.com"],
+a[href*="cdn.eyewonder.com"] img, *[src*="cdn.eyewonder.com"],
+a[href*="claria.com"] img, *[src*="claria.com"],
+a[href*="clickbank.com"] img, *[src*="clickbank.com"],
+a[href*="clickbank.net"] img, *[src*="clickbank.net"],
+a[href*="counter.webtrends.net"] img, *[src*="counter.webtrends.net"],
+a[href*="crazypopups.com"] img, *[src*="crazypopups.com"],
+a[href*="cydoor.com"] img, *[src*="cydoor.com"],
+a[href*="decisionmark.com"] img, *[src*="decisionmark.com"],
+a[href*="doubleclick."] img, *[src*="doubleclick."],
+a[href*="eur.a1.yimg.com"] img, *[src*="eur.a1.yimg.com"],
+a[href*="filetarget.com"] img, *[src*="filetarget.com"],
+a[href*="fastclick."] img, *[src*="fastclick."],
+a[href*="gator.com"] img, *[src*="gator.com"],
+a[href*="googleadservices.com"] img, *[src*="googleadservices.com"],
+a[href*="googlesyndication.com"] img, *[src*="googlesyndication.com"],
+a[href*="hit-now.com"] img, *[src*="hit-now.com"],
+a[href*="hitbox.com"] img, *[src*="hitbox.com"],
+a[href*="industrybrains.com"] img, *[src*="industrybrains.com"],
+a[href*="kontera.com"] img, *[src*="kontera.com"],
+a[href*="link4ads.com"] img, *[src*="link4ads.com"],
+a[href*="linktarget.com"] img, *[src*="linktarget.com"],
+a[href*="linkexchange."] img, *[src*="linkexchange."],
+a[href*="logging.to"] img, *[src*="logging.to"],
+a[href*="mediaplazza.com"] img, *[src*="mediaplazza.com"],
+a[href*="mediaplex.com"] img, *[src*="mediaplex.com"],
+a[href*="nedstatbasic.net"] img, *[src*="nedstatbasic.net"],
+a[href*="oas.salon.com"] img, *[src*="oas.salon.com"],
+a[href*="paycounter.com"] img, *[src*="paycounter.com"],
+a[href*="popupad.net"] img, *[src*="popupad.net"],
+a[href*="pulse360.com"] img, *[src*="pulse360.com"],
+a[href*="promos.fling.com"] img, *[src*="promos.fling.com"],
+a[href*="qkimg.net"] img, *[src*="qkimg.net"],
+a[href*="qksrv.net"] img, *[src*="qksrv.net"],
+a[href*="rcm-images.amazon.com"] img, *[src*="rcm-images.amazon.com"],
+a[href*="rcm.amazon.com"] img, *[src*="rcm.amazon.com"],
+a[href*="realmedia.com"] img, *[src*="realmedia.com"],
+a[href*="rightmedia.net"] img, *[src*="rightmedia.net"],
+a[href*="s1.amazon.com"] img, *[src*="s1.amazon.com"],
+a[href*="servedby."] img, *[src*="servedby."],
+a[href*="serving-sys.com"] img, *[src*="serving-sys.com"],
+a[href*="sexcounter.com"] img, *[src*="sexcounter.com"],
+a[href*="sextracker.com"] img, *[src*="sextracker.com"],
+a[href*="smartclicks.net"] img, *[src*="smartclicks.net"],
+a[href*="spinbox."] img, *[src*="spinbox."],
+a[href*="tradedoubler.com"] img, *[src*="tradedoubler.com"],
+a[href*="traffic-exchange.com"] img, *[src*="traffic-exchange.com"],
+a[href*="trafficmp.com"] img, *[src*="trafficmp.com"],
+a[href*="transfer.go"] img, *[src*="transfer.go"],
+a[href*="tribalfusion.com"] img, *[src*="tribalfusion.com"],
+a[href*="ukaffiliates2.com"] img, *[src*="ukaffiliates2.com"],
+a[href*="us.a1.yimg.com"] img, *[src*="us.a1.yimg.com"],
+/*a[href*="us.i1.yimg.com"] img, *[src*="us.i1.yimg.com"],*/
+a[href*="valuead.com"] img, *[src*="valuead.com"],
+a[href*="valueclick."] img, *[src*="valueclick."],
+a[href*="webads.bizservers.com"] img, *[src*="webads.bizservers.com"],
+a[href*="webads.co.nz"] img, *[src*="webads.co.nz"],
+a[href*="webstat."] img, *[src*="webstat."],
+a[href*="webtrendslive.com"] img, *[src*="webtrendslive.com"] {
+  display: none !important;
+}
+
+/* images: by size */
+a img[width="120"][height="240"],
+a img[width="120"][height="600"],
+a img[width="125"][height="125"],
+a img[width="125"][height="300"],
+a img[width="125"][height="600"],
+/*a img[width="150"][height="100"],*/
+a img[width="150"][height="600"],
+a img[width="160"][height="600"],
+a img[width="180"][height="150"],
+a img[width="234"][height="60"],
+a img[width="210"][height="500"],
+a img[width="300"][height="125"],
+a img[width="300"][height="250"],
+a img[width="336"][height="280"],
+a img[width="380"][height="200"],
+a img[width="468"][height="60"],
+a img[width="470"][height="62"],
+a img[width="728"][height="90"],
+a img[width="730"][height="92"] { display: none !important; }
+
+/* plugins: by size */
+embed[width="120"][height="240"], object[width="120"][height="240"],
+embed[width="120"][height="600"], object[width="120"][height="600"],
+embed[width="125"][height="300"], object[width="125"][height="300"],
+embed[width="125"][height="600"], object[width="125"][height="600"],
+embed[width="150"][height="100"], object[width="150"][height="100"],
+embed[width="150"][height="600"], object[width="150"][height="600"],
+embed[width="160"][height="600"], object[width="160"][height="600"],
+embed[width="180"][height="150"], object[width="180"][height="150"],
+embed[width="210"][height="500"], object[width="210"][height="500"],
+embed[width="234"][height="60"],  object[width="234"][height="60"],
+embed[width="300"][height="125"], object[width="300"][height="125"],
+embed[width="300"][height="250"], object[width="300"][height="250"],
+embed[width="336"][height="280"], object[width="336"][height="280"],
+embed[width="380"][height="200"], object[width="380"][height="200"],
+embed[width="468"][height="60"],  object[width="468"][height="60"],
+embed[width="470"][height="62"],  object[width="470"][height="62"],
+embed[width="728"][height="90"],  object[width="728"][height="90"],
+embed[width="728"][height="100"], object[width="728"][height="100"],
+embed[width="728"][height="200"], object[width="728"][height="200"],
+embed[width="730"][height="92"],  object[width="730"][height="92"] {
+  display: none !important;
+}
+
+/* iframes: by size */
+iframe[width="120"][height="600"],
+iframe[width="125"][height="300"],
+iframe[width="125"][height="600"],
+iframe[width="150"][height="100"],
+iframe[width="150"][height="600"],
+iframe[width="160"][height="600"],
+iframe[width="180"][height="150"],
+iframe[width="210"][height="500"],
+iframe[width="234"][height="60"],
+iframe[width="300"][height="125"],
+iframe[width="300"][height="250"],
+iframe[width="336"][height="280"],
+iframe[width="380"][height="200"],
+iframe[width="468"][height="60"],
+iframe[width="470"][height="62"],
+iframe[width="600"][height="120"],
+iframe[width="728"][height="90"],
+iframe[width="728"][height="100"],
+iframe[width="728"][height="200"],
+iframe[width="730"][height="92"] { display: none !important; }
+
+/* --- miscellaneous ------------------------------------------------------ */
+
+a[href*="/A="] img, *[src*="/A="],
+a[href*="/ad-"] img, *[src*="/ad-"],
+a[href*="/ad."] img, *[src*="/ad."],
+a[href*="/ad/"] img, *[src*="/ad/"],
+a[href*="/ad_"] img, *[src*="/ad_"],
+a[href*="/ads/"] img, *[src*="/ads/"],   /* expanded from '/ads' */
+a[href*="/ads_"] img, *[src*="/ads_"],
+a[href*="/ads-"] img, *[src*="/ads-"],
+a[href*="/ads."] img, *[src*="/ads."],
+a[href*="/adver"] img, *[src*="/adver"], /* expanded from '/adv' */
+a[href*="/adv/"] img, *[src*="/adv/"],
+a[href*="/adv_"] img, *[src*="/adv_"],
+a[href*="/adv-"] img, *[src*="/adv-"],
+a[href*="/adv."] img, *[src*="/adv."],
+a[href*="/adx"] img, *[src*="/adx"],
+a[href*="_ad_"] img, *[src*="_ad_"],
+a[href*="_ad/"] img, *[src*="_ad/"],
+a[href*="_ad."] img, *[src*="_ad."],
+a[href*="-ad-"] img, *[src*="-ad-"],
+a[href*="?ad"] img, *[src*="?ad"],
+a[href*="/jump/"] img, *[src*="/jump/"],
+a[href*="?banner"] img, *[src*="?banner"],
+a[href*="/banner"] img, *[src*="/banner"],
+a[href*="/click-"] img, *[href*="/click-"],
+a[href*="=click"] img, *[src*="=click"],
+a[href*="?click"] img, *[src*="?click"],
+a[href*="click_"] img, *[src*="click_"],
+a[href*="advert"] img, *[src*="advert"],
+a[href*="banman"] img, *[src*="banman"],
+a[href*="bannerman"] img, *[src*="bannerman"],
+a[href*="banners."] img, *[src*="banners."],
+a[href*="adframe"] img, *[src*="adframe"] {
+  display: none !important;
+}
+
+a.adHeadline,                 /* adbrite.com */
+a[href*="tryaol"] img,
+a[href*="/adlog.pl"] img,
+/*a[href*="/redirect"] img,*/
+a[href*="/referral/"] img,
+a[href*="/click.cgi"] img,
+a[href*="/clickover"] img,
+a[href*="/clickthr"] img,
+a img[src*="/affiliates/"],
+a img[src*="/creatives/"],
+a img[src*="/marketing/"],
+/*a img[src*="/offer"],*/
+a img[src*="/puffboxes/"],
+a img[src*="/sponsors/"],
+a img[src*="120x60"],
+a img[src*="120x80"],
+a img[src*="140x"],
+a img[src*="468x60"],
+a img[src*="_sponsor_"],
+a img[src*=".travelocity./Sponsor_gifs/"],
+a img[src*="pic.geocities.com/images/"],
+a img[src*="/us.yimg.com/a/ya"],
+a img[src*="/publicidad/"], a img[src*="public"][src*="ad"],
+a img[src*="klipmart"], a[name*="klipad"] img {
+  display: none !important;
+}
+
+a[alt*="advert"] img,
+object#widgeth, span.ad,
+table#RefAd, table[background*="advertising.com"],
+form[action*="doubleclick.net"] { display: none !important; }
+
+#ad, #advert, #ads, #ad-banner, #adbanner, #adbar,  /* general */
+#sponsor, #sponsors,
+.ad, .advert, .ads, .ad-banner, .adbanner, .adbar,
+.sponsor, .sponsors,
+#awin, #adstrip, #adbox, #adFrame, #splashFrame,
+#overture, #spons, #bigad,
+div#dcv_EchangeLay, div#yschsec, div.ovt,          /* unknown */
+#google_ads_frame, #google_ads_site, #googleadb,   /* google */
+#GoogleAd, iframe[name="GoogleAd"],
+#tads, #tpa1, #tpa2,
+div.c.xs#ad, div#co div#rh.rhs[style],
+span#konteraElements > *, div#konaLayers,          /* Kontera */
+span#iTt, /*#nointelliTXT,*/                       /* IntelliTXT */
+div#mntl, div#quack, div[id*="sponsor"],           /* yahoo, general */
+div#splashLayer, div.showcase A.scLink,            /* from floppymoose.com */
+div#AD, div[id^="AD"][style^="position:absolute"], /* lycos */
+#dwindow, #topmsg, #dropin,                        /* dynamicdrive.com */
+div#cache,                                         /* asp.flaaten.dk */
+div#xad,                                           /* proboards22.com */
+div#floatpop,                                      /* lyrics007.com */
+div#warning[style*="visibility:"],                 /* adblock.org ;) */
+div#elementDiv.welcomemat,                         /* linux.sys-con.com */
+div#AdLayer,                                       /* falkag.net */
+div#catfish, div#adcontent,                        /* sitepoint.com */
+div.VBannerAd, div.YourAdHere,                     /* flickr.com */
+div#externals, div#text-ads,                       /* technorati.com */
+div#btmad,                                         /* sourceforge.net */
+div#popinads,                                      /* popinads.com */
+div#ads2, span#adwithus,                           /* bugbash.net */
+div#dynamicAdWinDiv,                               /* forbes.com */
+div[id^="aws_"],                                   /* 50megs.com */
+div.adcnt,                                         /* geocities.com */
+div#footerAds, div#homeRightAd,                    /* macworld.com */
+table.leftadbody, td.leftadhead,                   /* wunderground.com */
+div#ads_topC, div#ads_bottomC,                     /* search.msn.com (mgb) */
+div[id^="sponLink"], div[id^="gca_sidebar"],       /* iwon.com */
+iframe[name="kanoodleAd"],                         /* imdb.com */
+div#adPaneRight,                                   /* live.com */
+div[id^="phpads"],                                 /* dvd2svcd.doom9.net */
+div[id^="advert"],                                 /* cbc.ca */
+div[id^="Div1"][id$="_s"][style*="visible"],       /* dynamic popup generator */
+div[id^="Div1"][id$="_b"][style*="visible"] {
+  display: none !important;
+}
+
+/* minimize the appearance of IntelliTXT ads */
+a.iAs[itxtdid] {                                                                  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* minimize the appearance of Kontera ads */
+a.kLink[href="#"] { text-decoration: none !important; }
+span.kLink { border-bottom: none !important; }
+
+/* --- questionable (should probably identify and (re)move unless common) --- */
+
+iframe[src^="/get_ad.php?"],                               /* geocities */
+iframe[src^="/sponsored-results"],                         /* babelfish */
+iframe[src^="/google/box?"],
+iframe[src*="contentsearch.de.espotting.com"],             /* heise.de */
+iframe[src*="industrybrains.com"], iframe[src*="BET365"],
+iframe[name="bsadframe"], iframe[src*="advert"] {
+  display: none !important;
+}
+
+table table table[width="346"][height="280"],
+table[border="0"][cellpadding="1"][cellspacing="0"][width="626"][bgcolor="#6699cc"],
+table[bordercolor="red"][height="225"][cellspacing="0"][cellpadding="0"][width="190"][bgcolor="white"][border="0"],
+table[width="336"][border="0"][cellspacing="0"][cellpadding="0"][align="right"][style="margin-left: 10px; margin-bottom: 10px;"],
+td[style="border-bottom: 1px solid rgb(204, 204, 204); padding: 7px 3px; background-color: rgb(255, 254, 249);"] { display: none !important; }
+
+/* --- false positives ---------------------------------------------------- */
+
+/* google: www, images, news, groups, froogle */
+body[onload^="document.gs.reset()"] div.n a[href^="/search?q="] img,
+body[onload^="document.gs.reset()"] div.n a[href^="/images?q="] img,
+body[onload^="document.gs.reset()"] a[href^="/imgres?imgurl="] img,
+body[onload^="document.gs.reset()"] div.n a[href*="/news?q="] img,
+body[onload="sf()"] a[href^="/groups?q="] img,
+a img[src^="/froogle_image?q="] {
+  display: inline !important;
+}
+
+/* yahoo images (via google) */
+a img[src*="images.google.com/images?q="] {
+  display: inline !important;
+}
+
+/* alltheweb.com: images */
+a[href*="click.alltheweb.com/go"] img[src*="fastsearch.net"] {
+  display: inline !important;
+}
+
+/* foxnews.com videos */
+/*div#video object embed[src*="/ads"][src*="foxnews.com"] {
+  display: inline !important;
+}*/
+
+/* imdb.com: posters/headshots linking fullpage interstitial ads.
+             annoying, but the image should be displayed anyway. */
+a[href*="imdb.com/ad/?id="] img[src*="imdb.com/media/"] {
+  display: inline !important;
+}
+
+/* happymany.be navigation, other ADSL-related links */
+/*a[href*="/adsl"] img, *[src*="/adsl"] { display: inline !important; }*/
+
+/* internet banking toolbar images on aib.ie (thanks David) */
+@-moz-document url-prefix(https://internetbanking.aib.ie/)
+{
+  a[href*="/banner"] img, *[src*="/banner"] { display: inline !important; }
+}
+
+/* Advizia product information */
+/*a[href*="/advizia"] img, *[src*="/advizia"] { display: inline !important; }*/
+
+@-moz-document domain(godaddy.com), domain(secureserver.net)
+{
+  #dropin { display: inline !important; }
+}
+
+/* ------------------------------------------------------------------------ */
+
+/*
+ * For more examples see http://www.mozilla.org/unix/customizing.html
+ */
+
+</style>
+
+<script type='text/javascript'>
+
+
+
+
+</script>
+    <title>The New York Times - Breaking News, World News & Multimedia</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+<link rel="shortcut icon" href="http://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="http://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="http://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="http://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta id="applicationName" name="applicationName" content="homepage" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<link rel="canonical" href="http://www.nytimes.com" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" />
+<link rel="alternate" media="handheld" href="http://mobile.nytimes.com" />
+<meta name="robots" content="noarchive,noodp,noydir" />
+<meta name="description" content="The New York Times: Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more at nytimes.com." />
+<meta name="CG" content="Homepage" />
+<meta name="SCG" content="" />
+<meta name="PT" content="Homepage" />
+<meta name="PST" content="" />
+<meta name="application-name" content="The New York Times" />
+<meta name="msapplication-starturl" content="http://www.nytimes.com" />
+<meta name="msapplication-task" content="name=Search;action-uri=http://query.nytimes.com/search/sitesearch?src=iepin;icon-uri=http://css.nyt.com/images/icons/search.ico" />
+<meta name="msapplication-task" content="name=Most Popular;action-uri=http://www.nytimes.com/gst/mostpopular.html?src=iepin;icon-uri=http://css.nyt.com/images/icons/mostpopular.ico" />
+<meta name="msapplication-task" content="name=Video;action-uri=http://video.nytimes.com/?src=iepin;icon-uri=http://css.nyt.com/images/icons/video.ico" />
+<meta name="msapplication-task" content="name=Homepage;action-uri=http://www.nytimes.com?src=iepin&amp;adxnnl=1;icon-uri=http://css.nyt.com/images/icons/homepage.ico" />
+<meta property="og:url" content="http://www.nytimes.com" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Breaking News, World News & Multimedia" />
+<meta property="og:description" content="The New York Times: Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more at nytimes.com." />
+<meta property="og:image" content="http://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta property="fb:app_id" content="9869919170" />
+<meta name="apple-itunes-app" content="app-id=357066198, affiliate-data=at=10lIEQ&ct=Web%20iPad%20Smart%20App%20Banner&pt=13036" />
+<meta name="keywords" content="Automobiles,Volkswagen AG,Winterkorn, Martin,Volkswagen AG,Audi Division of Volkswagen AG,Automobile Safety Features and Defects,Greenhouse Gas Emissions,Ford Motor Co,Fiat Chrysler Automobiles NV,National Highway Traffic Safety Administration,Germany,United States,Francis,Obama, Barack,Roman Catholic Church,Francis,Roman Catholic Church,Polls and Public Opinion,Christians and Christianity,Jews and Judaism,Atheism,Pew Research Center,Benedict XVI,de Blasio, Bill,Obama, Barack,King, Martin Luther Jr,Argentina,Central Park (Manhattan, NY),Philadelphia (Pa),United States,Francis,Roman Catholic Church,United States,Philadelphia (Pa),Washington (DC),New York City,Popes,Benedict XVI,Francis,John Paul II,Leo XII,Gregory XVI,Pius IX,Pius XII,Paul VI,Automobiles,Roman Catholic Church,Xi Jinping,Seattle (Wash),Cyberwarfare and Defense,China,China,Xi Jinping,Obama, Barack,United States Defense and Military Forces,United States Politics and Government,United States International Relations,Cyberwarfare and Defense,Middle East and Africa Migrant Crisis,European Union,Europe,Refugees and Displaced Persons,Immigration and Emigration,Asylum, Right of,European Commission,Refugees and Displaced Persons,Middle East and Africa Migrant Crisis,European Union,Syria,Starbucks Corporation,Labor and Jobs,Productivity,Minimum Wage,Rivers,Architecture,Area Planning and Renewal,Gehry, Frank,Garcetti, Eric M,Los Angeles (Calif),E-Mail,Presidential Election of 2016,Clinton, Hillary Rodham,State Department,Federal Bureau of Investigation,Computers and the Internet,Surveillance of Citizens by Government,Relocation of Business,Privacy,European Court of Justice,European Union,Facebook Inc,Google Inc,National Security Agency,Bot, Yves,Schrems, Max,Snowden, Edward J,Brussels (Belgium),Europe,Ireland,United States,Shkreli, Martin (1983- ),Drugs (Pharmaceuticals),Turing Pharmaceuticals AG,Television,The Daily Show with Trevor Noah (TV Program),Noah, Trevor (1984- ),The Daily Show with Jon Stewart (TV Program),Stewart, Jon,Comedy Central,Comedy and Humor,News and News Media,Book Trade and Publishing,E-Books and Readers,Amazon Kindle,E-Commerce,Amazon.com Inc,Hachette Book Group,Penguin Random House,HarperCollins Publishers,Education (K-12),Gentrification,Dumbo (Brooklyn, NY),Brooklyn Heights (Brooklyn, NY),Zoning,Public and Subsidized Housing,Race and Ethnicity,Segregation and Desegregation,New York City" />
+<meta name="video:playerId" content="2640832222001" />
+<meta name="video:publisherId" content="1749339200" />
+<meta name="video:publisherReadToken" content="cE97ArV7TzqBzkmeRVVhJ8O6GWME2iG_bRvjBTlNb4o." />
+<meta name="dfp-ad-unit-path" content="homepage/us" />
+<meta name="dfp-amazon-enabled" content="false" />
+<meta name="adxPage" content="homepage.nytimes.com/index.html" />
+    
+            <!--[if (gt IE 9)|!(IE)]> <!-->
+    <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/homepage/20150911-134143/css/homepage/styles.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://a1.nyt.com/assets/homepage/20150911-134143/css/homepage/styles-ie.css" />
+<![endif]-->
+        <script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+<script src="//typeface.nytimes.com/zam5nzz.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<script src="//cdn.optimizely.com/js/3338050995.js"></script>
+
+<script id="abtestconfig" type="application/json">
+
+[
+    {
+        "testId": "0012",
+        "testName": "tallWatchingModule",
+        "throttle": 1.0,
+        "allocation": 0.9,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0033",
+        "testName": "recommendedLabelTest",
+        "throttle": 1,
+        "allocation": 0.833,
+        "variants": 5,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0036",
+        "testName": "velcroSocialFollow",
+        "throttle": 0.1,
+        "allocation": 0.5,
+        "variants": 1,
+        "applications": ["article", "homepage"]
+    },
+    {
+        "testId": "0051",
+        "testName": "shuffleRecommendations",
+        "throttle": 1.0,
+        "allocation": 0.667,
+        "variants": 1,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0052",
+        "testName": "paidPostDriver",
+        "throttle": 1.0,
+        "allocation": 0.875,
+        "variants": 7,
+        "applications": ["article"]
+    },
+    {
+        "testId": "0061",
+        "testName": "paidPostFivePackMock",
+        "throttle": 0,
+        "allocation": 0,
+        "variants": 1,
+        "applications": ["homepage"]
+    },
+    {
+        "testId": "0063",
+        "testName": "paidPostFivePack",
+        "throttle": 1,
+        "allocation": 0.5,
+        "variants": 1,
+        "applications": ["homepage"]
+    }
+]
+
+</script>
+
+
+<script id="user-info-data" type="application/json">
+{ "meta": {},
+  "data": {
+    "id": "0",
+    "name": "",
+    "subscription": [],
+    "demographics": {}
+  }
+}
+</script>
+
+<script>
+var require = {
+    baseUrl: 'http://a1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'homepage/20150911-134143/js/foundation',
+        'shared': 'homepage/20150911-134143/js/shared',
+        'homepage': 'homepage/20150911-134143/js/homepage',
+        'application': 'homepage/20150911-134143/js/homepage/',
+        'videoFactory': 'http://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'http://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'http://static01.nyt.com/js/mtr',
+        'auth/growl': 'http://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'http://static01.nyt.com/video/vhs/build/vhs-2.x.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="http://a1.nyt.com/assets/homepage/20150911-134143/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="http://a1.nyt.com/assets/homepage/20150911-134143/js/foundation/lib/framework.js"></script>
+<![endif]-->
+<script>
+window.magnum.processFlags(["dfpAds","limitFabrikSave","moreFollowSuggestions","unfollowComments","homepageOpinionKickerCss","followFeature","allTheEmphases","videoVHSCover","videoVHSHomepageCover","additionalOpinionRegions","hpViewability","miniNavCount","newsEventHierarchy"]);
+</script>
+</head>
+<body>
+    <script>
+    
+new MutationObserver(function (mutations) {
+    mutations.some(function(mutation) {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'src') {
+            console.log(mutation);
+            console.log('Old src: ', mutation.oldValue);
+            console.log('New src: ', mutation.target.src);
+            return true;
+        }
+
+        return false;
+    });
+}).observe(document.body, {
+    attributes: true,
+    attributeFilter: ['src'],
+    attributeOldValue: true,
+    characterData: false,
+    characterDataOldValue: false,
+    childList: false,
+    subtree: true
+});
+
+    </script>
+    <style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('http://i1.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+</style>
+<div id="suggestions" class="suggestions messenger nocontent robots-nocontent" style="display:none;">
+    <div class="message-bed">
+        <div class="message-container last-message-container">
+            <div class="message">
+                <span class="message-content">
+                    <i class="icon alert-icon"></i><span class="message-title">NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.</span>
+                    <a href="http://www.nytimes.com/content/help/site/ie9-support.html" class="action-link">LEARN MORE »</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="shell" class="shell">
+    <header id="masthead" class="masthead" role="banner">
+
+    <div id="announcements-container" class="announcements-container"></div>
+
+    <div id="Header1" class="ad header1-ad"></div>
+
+    <div class="masthead-cap-container">
+
+        <div id="masthead-cap" class="masthead-cap">
+
+            <div class="quick-navigation button-group">
+
+                <button class="button sections-button enable-a11y">
+                    <i class="icon sprite-icon"></i><span class="button-text">Sections</span>
+                </button>
+                <button class="button search-button">
+                    <i class="icon sprite-icon"></i><span class="button-text">Search</span>
+                </button>
+                <a class="button skip-button skip-to-content visually-hidden focusable" href="#top-news">Skip to content</a>
+                <a class="button skip-button skip-to-navigation visually-hidden focusable" href="#site-index-navigation">Skip to navigation</a>
+            </div><!-- close quick-navigation -->
+
+            <div class="user-tools">
+
+                <div id="Bar1" class="ad bar1-ad"></div>
+
+                <div class="user-tools-button-group button-group">
+                    <button class="button login-button login-modal-trigger hidden">Log In</button>
+                    <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                    <button class="button user-settings-button">
+                        <i class="icon sprite-icon"></i><span class="button-text">Settings</span>
+                    </button>
+                </div>
+
+            </div><!-- close user-tools -->
+
+        </div><!-- close masthead-cap -->
+
+    </div><!-- close masthead-cap-container -->
+
+    <div class="masthead-meta">
+
+        <div class="editions tab">
+
+            <ul class="editions-menu">
+                                    <li class="edition-domestic-toggle active">U.S.</li>
+                    <li class="edition-international-toggle"><a href="http://international.nytimes.com" data-edition="global">International</a></li>
+                
+                <li class="edition-chinese-toggle"><a href="http://cn.nytimes.com" target="_blank" data-edition="chinese">中文</a></li>
+            </ul>
+
+        </div><!-- close editions -->
+
+        <div id="TopLeft" class="ad top-left-ad"></div>
+        <div id="TopRight" class="ad top-right-ad"></div>
+
+        <h2 class="branding"><a href="http://www.nytimes.com/">
+    <svg class="nyt-logo" width="379" height="64" role="img" aria-label="The New York Times">
+        <image width="379" height="64" xlink:href="http://a1.nyt.com/assets/homepage/20150911-134143/images/foundation/logos/nyt-logo-379x64.svg" src="http://a1.nyt.com/assets/homepage/20150911-134143/images/foundation/logos/nyt-logo-379x64.png" alt="The New York Times" border="0"/>
+    </svg>
+
+</a></h2>
+        <ul class="masthead-menu">
+            <li class="date">Wednesday, September 23, 2015</li><li class="todays-paper"><a href="http://www.nytimes.com/pages/todayspaper/index.html" data-collection="todays-paper"><i class="icon sprite-icon"></i>Today’s Paper</a></li><li class="video"><a href="http://www.nytimes.com/video" data-collection="video"><i class="icon sprite-icon"></i>Video</a></li><li id="weather" class="weather hidden" data-collection="weather"></li><li id="markets" class="markets hidden" data-collection="markets"></li>
+        </ul>
+
+    </div><!-- close masthead-meta -->
+
+    <nav id="mini-navigation" class="mini-navigation">
+    <ul class="mini-navigation-menu">
+
+        <li>
+            <button class="button sections-button">
+                <i class="icon sprite-icon"></i>
+                <span class="button-text">Sections</span>
+            </button>
+        </li><li>
+            <button class="button search-button">
+                <i class="icon sprite-icon"></i>
+                <span class="button-text">Search</span>
+            </button>
+        </li>
+
+            
+                <li class="shortcuts-9A43D8FC-F4CF-44D9-9B34-138D30468F8F ">
+                    <a href="http://www.nytimes.com/pages/world/index.html">World</a>
+                </li>
+
+            
+                <li class="shortcuts-23FD6C8B-62D5-4CEA-A331-6C2A9A1223BE ">
+                    <a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+                </li>
+
+            
+                <li class="shortcuts-80E6DEE6-87E4-4AD0-9152-14FA6B07E5AB ">
+                    <a href="http://www.nytimes.com/pages/politics/index.html">Politics</a>
+                </li>
+
+            
+                <li class="shortcuts-C4DC8C0C-E148-4201-BF10-82F1C903DBFB ">
+                    <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y.</a>
+                </li>
+
+            
+                <li class="shortcuts-104D1E63-9701-497B-8CF4-A4D120C9014E domestic">
+                    <a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+                </li>
+
+            
+                <li class="shortcuts-A257D89A-0D3C-40AF-9C34-1A25A7947D94 international">
+                    <a href="http://www.nytimes.com/pages/business/international/index.html">Business</a>
+                </li>
+
+            
+                <li class="shortcuts-AD8090D7-4137-4D71-84C8-70DA3BD89778 domestic">
+                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+                </li>
+
+            
+                <li class="shortcuts-09736473-CB3F-4B2F-9772-3AF128ABE12D international">
+                    <a href="http://www.nytimes.com/pages/opinion/international/index.html">Opinion</a>
+                </li>
+
+            
+                <li class="shortcuts-78FBAD45-31A9-4EC7-B172-7D62A2B9955E ">
+                    <a href="http://www.nytimes.com/pages/technology/index.html">Tech</a>
+                </li>
+
+            
+                <li class="shortcuts-A4B35924-DB6C-4EA3-997D-450810F4FEE6 ">
+                    <a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+                </li>
+
+            
+                <li class="shortcuts-7D6BE1AF-8CD8-430B-8B2A-17CD0EAA99AC ">
+                    <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                </li>
+
+            
+                <li class="shortcuts-DE2B278B-2783-4506-AAD5-C15A5BB6DA1A domestic">
+                    <a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+                </li>
+
+            
+                <li class="shortcuts-BE66F420-C51B-461D-B487-CACF62E94AAE international">
+                    <a href="http://www.nytimes.com/pages/sports/international/index.html">Sports</a>
+                </li>
+
+            
+                <li class="shortcuts-C5BFA7D5-359C-427B-90E6-6B7245A6CDD8 domestic">
+                    <a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+                </li>
+
+            
+                <li class="shortcuts-0202D0E4-C59B-479A-BD42-6F1766459781 international">
+                    <a href="http://www.nytimes.com/pages/arts/international/index.html">Arts</a>
+                </li>
+
+            
+                <li class="shortcuts-B3DFBD82-F298-43B3-9458-219B4F6AA2A5 domestic">
+                    <a href="http://www.nytimes.com/pages/fashion/index.html">Style</a>
+                </li>
+
+            
+                <li class="shortcuts-CC9E2674-F6C4-4A39-813B-F5AB0C515CEA international">
+                    <a href="http://www.nytimes.com/pages/style/international/index.html">Style</a>
+                </li>
+
+            
+                <li class="shortcuts-D9C94A2B-0364-4D25-8383-592CC66F82D4 domestic">
+                    <a href="http://www.nytimes.com/pages/dining/index.html">Food</a>
+                </li>
+
+            
+                <li class="shortcuts-FDEFB811-B483-4C3D-A25A-FD07BE5EAD96 international">
+                    <a href="http://www.nytimes.com/pages/dining/international/index.html">Food</a>
+                </li>
+
+            
+                <li class="shortcuts-FDA10AC4-4738-4099-91E8-15584765C8D7 ">
+                    <a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+                </li>
+
+            
+                <li class="shortcuts-E57A148E-0CB9-4C02-966D-28B119710151 ">
+                    <a href="http://www.nytimes.com/pages/magazine/index.html">Magazine</a>
+                </li>
+
+            
+                <li class="shortcuts-052C33AD-1404-4DB6-AA70-0901DB1AD95B ">
+                    <a href="http://www.nytimes.com/section/t-magazine">T Magazine</a>
+                </li>
+
+            
+                <li class="shortcuts-92720057-BCB6-4BDB-9351-12F29393259F ">
+                    <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+                </li>
+
+                        <li><button class="button all-sections-button">all</button></li>
+    </ul>
+
+</nav>
+    <div class="search-flyout-panel flyout-panel">
+    <button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    <div class="ad">
+        <small class="ad-sponsor">search sponsored by</small>
+        <div id="SponsorAd" class="sponsor-ad"></div>
+    </div>
+    <nav class="search-form-control form-control layout-horizontal">
+    <form class="search-form" role="search">
+        <div class="control">
+            <div class="label-container visually-hidden">
+                                <label for="search-input">Search NYTimes.com</label>
+                            </div>
+            <div class="field-container">
+                                <input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Search NYTimes.com" />
+                
+                <button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+                <div class="auto-suggest" style="display: none;">
+                    <ol></ol>
+                </div>
+                <button class="button submit-button" type="submit">Go</button>
+            </div>
+        </div><!-- close control -->
+    </form>
+</nav>
+
+
+</div><!-- close flyout-panel -->
+    <div id="notification-modals" class="notification-modals"></div>
+
+</header><!-- close masthead -->
+<div id="masthead-placeholder" class="masthead-placeholder"></div>
+                    <nav id="navigation" class="navigation" role="navigation">
+</nav> <!-- close navigation -->
+
+<nav id="mobile-navigation" class="mobile-navigation hidden">
+</nav>
+
+    <div id="navigation-edge" class="navigation-edge"></div>
+    <div id="page" class="page">
+        <main id="main" class="main" role="main">
+        <div id="TopAd" class="ad top-ad nocontent robots-nocontent">
+    <div class="accessibility-ad-header visually-hidden">
+    <p>Advertisement</p>
+</div>
+</div>
+
+<div id="Top" class="ad hp-top-ad hidden nocontent robots-nocontent"></div>
+<div id="Top_Close" class="ad hp-top-ad-close hidden nocontent robots-nocontent"></div>
+<div id="Top5" class="ad top5-ad nocontent robots-nocontent"></div>
+
+    <div class="span-abc-region region">
+        <div class="collection">
+            <!-- test 23 -->
+
+<style>
+
+
+
+
+/* Fix MM icons in kickers */
+.kicker .icon:before { top: 0px; }
+.kicker .media.slideshow { margin-bottom: 0px; }
+
+
+
+/* Hiding Hacks */
+
+.nythpHideKickers .kicker, .nythpHideBylines .byline, .nythpHideTimestamps .timestamp {
+    display: none;
+}
+
+/* banner hed modifications */
+.span-ab-top-region .story.theme-summary .story-heading {
+  line-height: 2.1rem;
+}
+
+
+/* Alterations to the Centered Feature Photo Spot Treatment */
+
+.b-column .photo-spot-region .story.theme-feature .story-heading {
+    font-size: 1.35rem;
+    line-height: 1.65rem;
+}
+
+.b-column  .photo-spot-region .story.theme-feature .story-heading {
+    padding: 0 22px; /* for headline wrapping  */
+}
+.b-column .photo-spot-region .story.theme-feature .summary {
+    line-height: 18px;
+}
+
+/* Breaking News/Developing Headers */
+.nythpBreaking {
+	color: #A81817;
+	border-top: 3px solid #A81817;
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+
+.nythpBreaking h6 {
+	text-transform: uppercase;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-weight: 700;
+}
+
+.nythpDeveloping {
+	color: #FD8249;
+	border-top-color: #FD8249;
+}
+
+.nythpBreaking.nythpNoRule {
+	border: none;
+}
+
+
+
+/* Daypart Styles */
+
+.pocket-region .story, .c-column #nythpDaypartRegion .story { margin-bottom: 15px !important; }
+
+.pocket-region h4.sectionHeaderHome, .c-column #nythpDaypartRegion h4.sectionHeaderHome {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.pocket-region h5, .c-column #nythpDaypartRegion h5 {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 700;
+	font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+	margin-bottom: 2px;
+}
+
+.pocket-region .runaroundRight, .c-column #nythpDaypartRegion .runaroundRight {
+	float: right;
+	clear: right;
+	margin: 3px 0px 6px 6px;
+}
+
+.pocket-region .summary, .c-column #nythpDaypartRegion .summary {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: georgia,"times new roman",times,serif;
+    margin-bottom: 0px;
+}
+
+.pocket-region .refer li, .c-column #nythpDaypartRegion .refer li {
+	background-image: url(http://css.nyt.com/images/icons/bullet4x4.gif);
+	background-repeat: no-repeat;
+	background-position: 0 .4em;
+	padding-left: 8px;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 700;
+	font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+}
+
+
+
+/* BEGIN .HPHEADER STYLING */
+
+.wf-loading .hpHeader h6 {
+    visibility: hidden;
+  }
+
+.hpHeader {
+  margin-bottom: 8px;
+}
+
+.hpHeader h6 {
+  font-family: "nyt-franklin",helvetica,arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 12px 4px 2px 0;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #E2E2E2;
+}
+
+
+.hpHeader h6 a, 
+.hpHeader h6 a:visited  {
+  text-decoration: none;
+  color: #000;
+}
+
+.hpHeader h6:hover, .span-ab-top-region .hpHeader h6 a:hover, .top-news .b-column .hpHeader h6 a:hover, .b-column .split-layout .hpHeader h6:hover,  
+.hpHeader h6:active, .span-ab-top-region .hpHeader h6 a:active, .top-news .b-column .hpHeader h6 a:active, .b-column .split-layout .hpHeader h6:active {
+  border-bottom-color: #000;
+}
+
+/* B Column Centered Treatment */
+.span-ab-top-region .hpHeader h6, .top-news .b-column .hpHeader h6  {
+  text-align: center;
+  border-bottom: none;
+  padding: 0px;
+}
+
+.span-ab-top-region .hpHeader h6 a, .top-news .b-column .hpHeader h6 a  {
+  display: inline-block;
+  border-bottom: 1px solid #999;
+  padding: 12px 4px 2px 4px;
+}
+
+/* Undo B Column Treatment for 3 Column Layouts and Split Code */
+.b-column .split-layout .hpHeader h6 {
+  text-align: left;    
+  border-bottom: 1px solid #999;
+  padding: 12px 4px 2px 0;
+}
+
+.b-column .split-layout .hpHeader h6 a {
+  border-bottom: none;
+  padding: 0;
+}
+
+
+/* Remove Top Rule When First in Region */
+.collection:first-child .hpHeader h6, .collection:first-child .hpHeader h6 a {
+  border-top: none;
+  padding-top: 0;
+}
+
+/* Lens Header Styles */
+
+.hpHeader h6, .span-ab-top-region .hpHeader h6 a, .top-news .b-column .hpHeader h6 a, .b-column .split-layout .hpHeader h6 { border-bottom-width: 2px; }
+
+/* END .HPHEADER STYLING */
+
+
+/* Briefing Newsletter */
+
+.nythpBriefingNewsletterSignup {
+	font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 16px;
+	background: url('http://graphics8.nytimes.com/packages/images/homepage/newsletter_icon.png') no-repeat;
+	font-weight: 400;
+}
+
+a.nythpBriefingNewsletterSignup, a:link.nythpBriefingNewsletterSignup, a:visited.nythpBriefingNewsletterSignup {
+	color: #326891;
+}
+
+</style>
+<style>
+
+.nythpBriefings h3.kicker {
+    font-family: nyt-franklin,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background: url('http://graphics8.nytimes.com/packages/images/homepage/briefings/dogear_sm.png') no-repeat scroll left top transparent;
+    padding: 0 0 3px 20px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    color: #000;
+    margin-bottom: 8px;
+margin-top: 0px !important;
+}
+
+.nythpBriefings .timestamp {display: none;}
+
+/* Gift Guide Promos */
+
+.nythpGiftguide h3.kicker {
+
+}
+
+.nythpGiftguide article .kicker, .nythpGiftguide .byline {
+	display: none;
+}
+
+.b-column .nythpGiftguide .image {
+	margin-top: -40px;
+}
+
+.nythpGiftguide .theme-news-headlines li:before {
+	background: none;
+	border: none;
+}
+
+.nythpGiftguide .theme-news-headlines li {
+	padding-left: 0px;
+}
+
+.nythpGiftguide .refer li .refer-heading {
+	font-family: "nyt-franklin",arial,helvetica,sans-serif; 
+	text-transform: uppercase; 
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.nythpGiftguide .story.theme-summary .story-heading {
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 700;
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+}
+
+</style>
+
+<script>
+require(['foundation/main'], function () {
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        $(document).ready(function () {
+             
+              $("h3:contains('The Day Ahead')").parent().addClass("nythpBriefings");
+              $("h3:contains('Holiday Gift Guide')").parent().addClass("nythpGiftguide");
+
+        });
+    });
+});
+
+</script></div>
+    </div><!-- close span-abc-region -->
+
+<div class="span-ab-layout layout">
+
+    <div class="ab-column column">
+
+        <section id="top-news" class="top-news">
+            <h2 class="section-heading visually-hidden">Top News</h2>
+
+            
+            
+            
+            <div class="wide-b-layout layout">
+
+                <div class="a-column column">
+
+                    <div class="first-column-region region">
+
+                        <div class="collection">
+    <div class="nythpBreaking nythpNoRule">
+	<h6>Breaking News</h6>
+</div>
+
+        <article class="story theme-summary lede" data-story-id="100000003931661" data-rank="0" data-collection-renderstyle="LedeSum">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/business/international/volkswagen-chief-martin-winterkorn-resigns-amid-emissions-scandal.html">Volkswagen Chief Resigns Over Cheating on Emissions</a></h2>
+
+            <p class="byline">By JACK EWING <time class="timestamp" datetime="2015-09-23" data-eastern-timestamp="11:46 AM" data-utc-timestamp="1443023160">11:46 AM ET</time></p>
+    
+    <p class="summary">The move by Martin Winterkorn came less than a week after the company admitted that some diesel cars in the United States contained software designed to evade emissions tests.</p>
+
+	
+	</article>
+
+
+</div>
+<div class="collection">
+            <article class="story theme-summary" data-story-id="100000003929879" data-rank="0" data-collection-renderstyle="HpSum">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/business/international/volkswagen-test-rigging-follows-a-long-auto-industry-pattern.html">Volkswagen Test Rigging Part of Long Pattern in Industry</a></h2>
+    
+            <p class="byline">By DANNY HAKIM and HIROKO TABUCHI <time class="timestamp" datetime="2015-09-23" data-eastern-timestamp="8:41 AM" data-utc-timestamp="1443012072">8:41 AM ET</time></p>
+    
+    <p class="summary">Ever since governments began regulating cars, automakers have been finding ways to cheat on emissions, gas mileage and safety.</p>
+
+	
+	</article>
+
+</div>
+                                                <hr class="single-rule"><div class="collection">
+            <article class="story theme-summary" data-story-id="100000003929882" data-rank="0" data-collection-renderstyle="HpSumSmallMedia">
+    
+    
+    <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/23/world/asia/xi-jinping-of-china-to-address-wary-us-business-leaders.html">China Leader Vows to Work With U.S. to Stop Cybercrimes</a></h2>
+
+            <p class="byline">By JANE PERLEZ </p>
+    
+            <div class="thumb">
+            <a href="http://www.nytimes.com/2015/09/23/world/asia/xi-jinping-of-china-to-address-wary-us-business-leaders.html"><img src="http://static01.nyt.com/images/2015/09/23/world/asia/XI-RFR/XI-RFR-thumbStandard.jpg" alt=""></a>
+        </div>
+    
+    <p class="summary">
+        On his first day of a state visit to the U.S., President Xi Jinping vowed in a speech in Seattle before wary business leaders that the Chinese government was a staunch defender of cybersecurity.    </p>
+
+            <p class="theme-comments">
+    <a href="http://www.nytimes.com/2015/09/23/world/asia/xi-jinping-of-china-to-address-wary-us-business-leaders.html?hp&amp;target=comments#commentsContainer" class="comments-link"><i class="icon sprite-icon comments-icon"></i><span class="comment-count">&nbsp;Comments</span></a>
+</p>
+    
+    </article>
+
+</div>
+<div class="collection headlines">
+            <ul class="theme-news-headlines">
+                    <li>
+            <div style="margin-top: -10px;"></div>            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929872" data-rank="1" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/world/asia/conflict-flavors-obamas-meeting-with-chinese-leader.html">Conflict Flavors Obama’s Meeting With Chinese Leader</a> </h2>
+</article>
+            </li>
+            </ul>
+</div>
+<hr class="single-rule"><div class="collection">
+            <article class="story theme-summary" data-story-id="100000003928597" data-rank="0" data-collection-renderstyle="HpSum">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/23/world/europe/european-union-ministers-migrants-refugees.html">Vote to Take In Migrants Tests Limits of E.U. Unity</a></h2>
+    
+            <p class="byline">By STEVEN ERLANGER and JAMES KANTER </p>
+    
+    <p class="summary">Overruling four former Soviet bloc countries, European Union ministers approved a plan for individual nations in the bloc to accept a share of 120,000 refugees.</p>
+
+		    <p class="theme-comments">
+    <a href="http://www.nytimes.com/2015/09/23/world/europe/european-union-ministers-migrants-refugees.html?hp&amp;target=comments#commentsContainer" class="comments-link"><i class="icon sprite-icon comments-icon"></i><span class="comment-count">&nbsp;Comments</span></a>
+</p>
+	
+	</article>
+
+</div>
+<div class="collection headlines">
+            <ul class="theme-news-headlines">
+                    <li>
+            <div style="margin-top: -10px;"></div>            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930899" data-rank="1" data-collection-renderstyle="HpBlogHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/24/world/europe/migrant-crisis-raises-issues-of-refugees-rights-and-nations-obligations.html">Explainer: What the Plan Means for Migrants in Europe</a></h2>
+</article>
+            </li>
+            </ul>
+</div>
+                        
+                    </div><!-- close first-column-region -->
+
+                </div><!-- close a-column -->
+
+                <div class="b-column column">
+
+                                            <div class="photo-spot-region region">
+
+                            <div class="collection">
+            <style type="text/css">
+
+
+.nytfrancisheader h6 {
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    margin-bottom: 20px;
+    height: 18px;
+    padding: 5px 5px 0 25px;
+text-align: center;
+}
+
+.nytfrancisheader h6:after {
+    border-top: solid 2px rgba(240, 220, 0, 0.5);
+    content: "";
+    display: block;
+    width: 120px;
+    margin: 9px auto;
+}
+
+.nytfrancisheader h6 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nytfrancisheader h6:hover,
+.nytfrancisheader h6:active {
+}
+
+.nytfrancisheader h6 a, 
+.nytfrancisheader h6 a:visited  {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.span-ab-top-region .nytfrancisheader,
+.b-column .nytfrancisheader {
+    text-align: center;
+}
+
+.span-ab-top-region .nytfrancisheader h6,
+.b-column .nytfrancisheader h6 {
+    display: inline-block;
+
+}
+
+</style>
+
+<div class="nythpHeader nytfrancisheader">
+  <h6><a href="http://www.nytimes.com/news-event/pope-francis-us-visit">FRANCIS IN AMERICA</a></h6>
+</div>
+<script>function getFlexData() { return {"data":{"backgroundImage":"http:\/\/graphics8.nytimes.com\/images\/2015\/09\/23\/us\/20150924POPE-hp-slide-S44V\/20150924POPE-hp-slide-S44V-videoSixteenByNine600-v2.jpg","photoCredit":"","headline":"Live Video: The Pope in Washington","summary":"Pope Francis attends a prayer service with American bishops at St. Matthew’s Cathedral.","streamUrl":"http:\/\/nythlslive-i.akamaihd.net\/hls\/live\/219550\/home_page_live_9-23-15_2\/master.m3u8"}}; }var NYTD=NYTD || {}; NYTD.FlexTypes = NYTD.FlexTypes || []; NYTD.FlexTypes.push({"target":"FT100000003931922","type":"Home Page Live Video Player - VHS","data":{"backgroundImage":"http:\/\/graphics8.nytimes.com\/images\/2015\/09\/23\/us\/20150924POPE-hp-slide-S44V\/20150924POPE-hp-slide-S44V-videoSixteenByNine600-v2.jpg","photoCredit":"","headline":"Live Video: The Pope in Washington","summary":"Pope Francis attends a prayer service with American bishops at St. Matthew’s Cathedral.","streamUrl":"http:\/\/nythlslive-i.akamaihd.net\/hls\/live\/219550\/home_page_live_9-23-15_2\/master.m3u8"}});</script><style><!--
+#photoSpotRegion .timesCastLiveHeadline { font-family:'nyt-franklin',arial,helvetica,'sans-serif'; font-size:11px; color:#000; font-weight:bold; text-transform:uppercase; margin:0; padding:0 8px 0 0; }
+#photoSpotRegion .timesCastWatchLive { font-family: 'nytfranklin-bold',arial,helvetica,'sans-serif'; color: #4d7b9f; text-transform: uppercase; font-weight: bold; font-size:  .75rem; line-height: 1rem;}
+#photoSpotRegion .timesCastLiveSummary { color: #666;
+font-weight: 400;
+font-family: nyt-cheltenham-sh,georgia,"times new roman",times,serif;
+ line-height: .875rem; }
+#photoSpotRegion .timescastBody .caption { margin: 1em 0 1em 0; line-height: .875rem; }
+#photoSpotRegion .timescastBody .credit { color: #999; display: inline; font-family: arial,helvetica,sans-serif; font-size: .375rem; line-height: .875rem; }
+--></style>
+<div id="photoSpotRegion">
+  <div class="timescastBody" style="margin-top: 0 ! important;">
+    <div class="columnGroup first">
+      <div class="timescastWrapper">
+        <div class="timescastVideoPlayer" id="timescastVideoPlayerContainer" style="width:100% background-color: rgb(39, 39, 39);"></div><!-- end timesCastVideoPlayer -->
+        <p class="caption"><span class="timesCastLiveHeadline"></span><span class="caption-text timesCastLiveSummary"></span><span class="credit timesCastLiveByline"></span><span class="credit timesCastLivePhotoCredit"></span></p>
+      </div><!-- end timescastWrapper -->
+    </div>
+  </div>
+</div>
+
+<script type='text/javascript'>
+require(['foundation/main'], function() {
+  require(['jquery/nyt', 'foundation/views/page-manager', 'shared/video/libs/inactivity-timer-manager'], function($, pageManager, InactivityTimerManager){
+    require(['vhs'], function(VHS){
+      var config;
+      var player;
+      var timesCastFlexData = {};
+      var flexType = "Home Page Live Video Player - VHS";
+      var inactivityTimerManager = new InactivityTimerManager(pageManager);
+      var env = /stg\.nytimes\.com/.test(location.host) ? 'staging' : 'production';
+
+      // Used for a different type of Freeform
+      // ================================================
+       for(var i = 0; i < NYTD.FlexTypes.length; i++) {
+         if (NYTD.FlexTypes[i].type === flexType) {
+           timesCastFlexData = NYTD.FlexTypes[i].data;
+           break;
+         }
+       }
+
+      // If data doesn't exist, the video may fail but the homepage shouldn't break
+      // try {
+      //   timesCastFlexData = getFlexData().data;
+      // } catch(err) {
+      //   timesCastFlexData = {};
+      // }
+
+      // Player options
+      config = {
+        container: 'timescastVideoPlayerContainer',
+        width: '100%',
+        height: '100%',
+        autoplay: false,
+        type: 'generic_live_stream',
+        ads: true,
+        cover: { mode: 'clean' },
+        mode: 'flash',
+        env: env,
+        live: true
+      };
+
+      if (timesCastFlexData.backgroundImage) {
+        config.poster = timesCastFlexData.backgroundImage;
+      }
+
+      if (timesCastFlexData.streamUrl) {
+        config.src = timesCastFlexData.streamUrl;
+        config.name = 'live-player';
+        config.id = "live_sotu2015"; // Hard coded for State Of The Union 2015
+        config.api = false; // Don't use api for fake id
+      } else if (timesCastFlexData.videoID) {
+        config.id = timesCastFlexData.videoID;
+      }
+
+      // Initialize player
+      player = VHS.player(config);
+
+      // Events
+      if (config.id && config.api !== false) {
+        player.on(VHS.api.events.LOADED_DATA, fillDetails);
+      } else {
+        fillDetails();
+      }
+
+      player.on(VHS.api.events.LOAD_START, function(){
+        inactivityTimerManager.disable();
+      });
+
+      player.on(VHS.api.events.ENDED, function(){
+        inactivityTimerManager.enable();
+      });
+
+      var photoCreditOff = false; // flag to remove photoCredit
+
+      player.on(VHS.api.events.PLAY, function hidePhotoCredit(){
+        if (!photoCreditOff) {
+          $("#photoSpotRegion .timesCastLivePhotoCredit").hide();
+          photoCreditOff = true;
+        }
+        //player.off(VHS.api.events.PLAY, hidePhotoCredit);
+        inactivityTimerManager.disable();
+      });
+
+      player.on(VHS.api.events.PAUSE, function(){
+        inactivityTimerManager.enable();
+      });
+
+      player.on(VHS.api.events.AD_STARTED, function(){
+        inactivityTimerManager.disable();
+      });
+
+      player.on(VHS.api.events.AD_COMPLETED, function(){
+        inactivityTimerManager.enable();
+      });
+
+      function wrapnbsp(txt) {
+        if (!txt || txt === '') {
+          return txt;
+        }
+
+        return '&nbsp;' + txt + '&nbsp;';
+      }
+
+      function fillDetails() {
+        var playerData = player._data || {};
+        var $photoSpotRegion = $("#photoSpotRegion");
+
+        $photoSpotRegion.find(".timesCastLivePhotoCredit").html(timesCastFlexData.photoCredit || '');
+        $photoSpotRegion.find(".timesCastLiveHeadline").html((timesCastFlexData.headline || playerData.headline || ''));
+        $photoSpotRegion.find(".timesCastLiveSummary").html(wrapnbsp(timesCastFlexData.summary || playerData.summary || ''));
+        $photoSpotRegion.find(".timesCastLiveByline").html(wrapnbsp(playerData.byline || ''));
+      }
+    });
+  });
+});
+</script><div id="FT100000003931922"></div></div>
+<div class="collection">
+            <div class="photo-spot-region"><div class="story theme-summary lede"><article class="story theme-summary" data-story-id="100000003930631" data-rank="1" data-collection-renderstyle="HpSum">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/us/politics/pope-francis-obama-white-house.html">Pope Praises Obama’s Moves on Climate</a></h2>
+    
+            <p class="byline">By PETER BAKER <time class="timestamp" datetime="2015-09-23" data-eastern-timestamp="10:02 AM" data-utc-timestamp="1443016963">10:02 AM ET</time></p>
+    
+    <p class="summary">President Obama welcomed the pope on Wednesday in an elaborate arrival event on the South Lawn, where Francis spoke about immigration and the environment.</p>
+
+	
+	</article>
+
+</div></div></div>
+<div class="collection">
+            <style>
+.nythpSplitCode .column { margin-left: 21px; }
+.nythpSplitCode .column:first-child { margin-left: 0px; }
+.nythpSplitCode.layout { background: none; }
+.nythpSplitCode .media.photo.medium-thumb { float: none; margin-left: 0; }
+</style>
+
+<div class="layout nythpSplitCode">
+<div class="column"><div><article class="story theme-summary" data-story-id="100000003920309" data-rank="1" data-collection-renderstyle="HpSum">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/us/pope-francis-popularity-bridges-great-divides.html">Pope Francis’ Popularity Bridges Great Divides</a></h2>
+    
+            <p class="byline">By VIVIAN YEE </p>
+    
+    <p class="summary">When Francis speaks, millions listen — whether Muslim or Baptist, Hindu or atheist.</p>
+
+		    <p class="theme-comments">
+    <a href="http://www.nytimes.com/2015/09/24/us/pope-francis-popularity-bridges-great-divides.html?hp&amp;target=comments#commentsContainer" class="comments-link"><i class="icon sprite-icon comments-icon"></i><span class="comment-count">&nbsp;Comments</span></a>
+</p>
+	
+	</article>
+
+</div></div>
+<div class="column"><div></div>
+<div class="collection">
+            <div style="margin-top: -10px;"></div></div>
+<div class="collection headlines">
+                <h3 class="kicker collection-kicker">Related Coverage</h3>
+        <ul class="theme-news-headlines">
+                    <li>
+            <article class="story"><h2 class="story-heading"><a href="http://www.nytimes.com/video/us/100000003931727/pope-urges-tolerance-in-remarks-.html"><span class="icon video">Watch</span>: Highlights of Pope’s Remarks</a><span class="pipe">|</span><a href="http://www.nytimes.com/2015/09/24/us/pope-francis-remarks-at-the-white-house.html"><span class="icon document"></span>Full Transcript</a><time class="timestamp"></time><span class="product-label theme-nyt-now hidden"><span class="visually-hidden">NYT Now</span><i class="icon dot-logo-icon"></i></span></h2></article>
+
+
+</article>
+
+
+
+
+
+
+<!-- Example markup, do not edit; With timestamp and NYTNow diamond
+
+<article class="story"><h2 class="story-heading">
+<a href="URL URL URL">DESCRIPTOR FOR HYPERLINK</a> <time class="timestamp">6:39 PM</time><span class="product-label theme-nyt-now hidden"><span class="visually-hidden">NYT Now</span><i class="icon dot-logo-icon"></i></span></h2></article>
+
+
+-->            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927900" data-rank="1" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/live/pope-visit-2015/">Pope’s Visit: Latest Updates</a> </h2>
+</article>
+            </li>
+            </ul>
+</div>
+<div class="collection headlines">
+            <ul class="theme-news-headlines">
+                    <li>
+            <article class="story" data-story-id="100000003877786" data-rank="0" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/interactive/2015/08/28/us/papal-visit-schedule.html">Pope’s U.S. Schedule</a> </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003931005" data-rank="1" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/interactive/2015/09/23/us/PopeMobile-History.html">Popemobiles Through Time</a> </h2>
+</article>
+            </li>
+            </ul>
+</div>
+<div class="collection">
+            </div></div></div></div>
+
+                        </div><!-- close photo-spot-region -->
+
+                        <hr class="scotch-rule" />
+                    
+                    
+                        <div class="second-column-region region">
+
+                            <div class="collection">
+            <article class="story theme-summary" data-story-id="100000003931771" data-rank="0" data-collection-renderstyle="HpSumMediumMediaFloated">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/sports/baseball/yogi-berra-dies-at-90-yankees-baseball-catcher.html">Yogi Berra, Yankees Catcher With a Wit All His Own, Dies</a></h2>
+
+            <figure class="media photo medium-thumb">
+    <div class="image">
+        <a href="http://www.nytimes.com/2015/09/24/sports/baseball/yogi-berra-dies-at-90-yankees-baseball-catcher.html"><img src="http://static01.nyt.com/images/2015/09/24/world/10Berra-HP11/10Berra-HP11-mediumFlexible177-v2.jpg" alt="" /></a>
+    </div>
+</figure>
+    
+            <p class="byline">By BRUCE WEBER </p>
+    
+    <p class="summary">
+        One of baseball’s greatest characters and a mainstay on 10 Yankees championship teams, Berra may have been best known for his bumbling yet wise way with words.    </p>
+
+    
+        <ul class="refer theme-news-headlines">
+            <li>
+            <article class="story">
+                <h2 class="refer-heading"><span class="theme-comments"><a href="http://www.nytimes.com/2015/09/24/sports/baseball/yogi-berra-dies-at-90-yankees-baseball-catcher.html?target=comments#commentsContainer" class="comments-link"><i class="icon sprite-icon comments-icon"></i><span class="comment-count">Comments</span></a></span></h2>
+            </article>
+        </li>
+            <li>
+            <article class="story">
+                <h2 class="refer-heading"><a href="http://www.nytimes.com/2015/09/24/sports/yogi-berra-yogi-isms-quotes-explored.html">Did Yogi Berra Really Say All Those Things He Said?</a> <time class="timestamp" data-eastern-timestamp="9:35 AM" datetime="2015-09-23" data-utc-timestamp="1443015315000">9:35 AM</time></h2>
+            </article>
+        </li>
+            <li>
+            <article class="story">
+                <h2 class="refer-heading"><a href="http://www.nytimes.com/2011/02/24/sports/baseball/24yogi.html">It Happens Every Spring: ‘Driving Mr. Yogi’ (Feb. 23, 2011)</a></h2>
+            </article>
+        </li>
+        </ul>
+</article>
+</div>
+<hr class="single-rule"><div class="collection">
+            <article class="story theme-summary" data-story-id="100000003928978" data-rank="0" data-collection-renderstyle="HpSumSmallMediaHigh">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/business/starbucks-falls-short-after-pledging-better-labor-practices.html">Starbucks Falls Short After Pledging Better Labor Practices</a></h2>
+
+            <div class="thumb">
+            <a href="http://www.nytimes.com/2015/09/24/business/starbucks-falls-short-after-pledging-better-labor-practices.html"><img src="http://static01.nyt.com/images/2015/09/23/business/23starbucks-web/23starbucks-web-thumbStandard.jpg" alt=""></a>
+        </div>
+    
+            <p class="byline">By NOAM SCHEIBER </p>
+        
+    <p class="summary">
+        Barista interviews and a nonprofit’s report find continuing issues with erratic and short-notice scheduling, suggesting the difficulty of taking the high road.    </p>
+
+            <p class="theme-comments">
+    <a href="http://www.nytimes.com/2015/09/24/business/starbucks-falls-short-after-pledging-better-labor-practices.html?hp&amp;target=comments#commentsContainer" class="comments-link"><i class="icon sprite-icon comments-icon"></i><span class="comment-count">&nbsp;Comments</span></a>
+</p>
+    
+    </article>
+</div>
+<hr class="single-rule"><div class="collection">
+            <article class="story theme-summary" data-story-id="100000003923804" data-rank="0" data-collection-renderstyle="HpSumSmallMediaHigh">
+    
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/us/frank-gehry-draws-ire-for-joining-los-angeles-river-restoration-project.html">Gehry Navigates Los Angeles Politics in River Redesign</a></h2>
+
+            <div class="thumb">
+            <a href="http://www.nytimes.com/2015/09/24/us/frank-gehry-draws-ire-for-joining-los-angeles-river-restoration-project.html"><img src="http://static01.nyt.com/images/2015/09/22/us/00lariver/00lariver-thumbStandard.jpg" alt=""></a>
+        </div>
+    
+            <p class="byline">By ADAM NAGOURNEY <time class="timestamp" datetime="2015-09-23" data-eastern-timestamp="9:00 AM" data-utc-timestamp="1443013223">9:00 AM ET</time></p>
+        
+    <p class="summary">
+        The involvement of the architect Frank Gehry in the Los Angeles River restoration project has prompted stinging criticism from advocates wary of gentrification.    </p>
+
+    
+    </article>
+</div>
+<hr class="single-rule"><div class="collection headlines">
+                <h3 class="kicker collection-kicker">More News</h3>
+        <ul class="theme-news-headlines">
+                    <li>
+            <article class="story" data-story-id="100000003929190" data-rank="0" data-collection-renderstyle="HpBlogHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/nytnow/pope-obama-daily-briefing.html">Your Wednesday Briefing</a></h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003931053" data-rank="1" data-collection-renderstyle="HpBlogHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/us/politics/investigators-find-emails-hillary-clinton-said-were-erased.html">Investigators Find Emails That Clinton Said Were Erased</a></h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003928958" data-rank="2" data-collection-renderstyle="HpBlogHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/24/business/international/adviser-to-europes-top-court-calls-data-transfer-pact-insufficient.html">Trans-Atlantic Data Pact Is Insufficient, Adviser Says</a></h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930721" data-rank="3" data-collection-renderstyle="HpBlogHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/business/big-price-increase-for-an-old-drug-will-be-rolled-back-turing-chief-says.html">Price Increase for Drug to Be Rolled Back, C.E.O. Says</a></h2>
+</article>
+            </li>
+            </ul>
+</div>
+
+                        </div><!-- close second-column-region -->
+
+                    
+                </div><!-- close b-column -->
+
+            </div><!-- close wide-b-layout -->
+
+            
+                            <div class="span-ab-bottom-region region">
+                    <hr class="scotch-rule" />
+<div class="split-3-layout layout theme-base">
+<h2 class="section-heading">
+</h2>
+<div class="column">
+    <article class="story theme-summary " data-story-id="100000003916296" data-rank="0" data-collection-renderstyle="HPMediumMediaHedSumDaypart">
+                <a href="http://www.nytimes.com/2015/09/27/arts/television/trevor-noah-daily-show-jon-stewart.html">
+                        <div class="wide-thumb">
+                    <img src="http://static01.nyt.com/images/2015/09/27/arts/27NOAH/27NOAH-mediumThreeByTwo210.jpg" />
+                                    </div>
+                 </a>
+        <h2 class="story-heading">
+            <a href="http://www.nytimes.com/2015/09/27/arts/television/trevor-noah-daily-show-jon-stewart.html">Trevor Noah on His ‘Daily Show’ Plans</a>
+        </h2>
+        <p class="summary">
+            The new host of Comedy Central’s marquee news-satire series discusses his preparations, his controversial tweets and the challenges that the program will face.        </p>
+    </article>
+</div>
+<div class="column">
+    <article class="story theme-summary " data-story-id="100000003930918" data-rank="1" data-collection-renderstyle="HPMediumMediaHedSumDaypart">
+                <a href="http://www.nytimes.com/2015/09/23/business/media/the-plot-twist-e-book-sales-slip-and-print-is-far-from-dead.html">
+                        <div class="wide-thumb">
+                    <img src="http://static01.nyt.com/images/2015/09/23/business/23jpEBOOKS1/23jpEBOOKS1-mediumThreeByTwo210.jpg" />
+                                    </div>
+                 </a>
+        <h2 class="story-heading">
+            <a href="http://www.nytimes.com/2015/09/23/business/media/the-plot-twist-e-book-sales-slip-and-print-is-far-from-dead.html">E-Book Sales Slip and Print Is Far From Dead</a>
+        </h2>
+        <p class="summary">
+            With readers on a reverse migration to print, the &#8220;e-book terror has kind of subsided&#8221; for bookstores and publishers.        </p>
+    </article>
+</div>
+<div class="column">
+    <article class="story theme-summary " data-story-id="100000003929512" data-rank="2" data-collection-renderstyle="HPMediumMediaHedSumDaypart">
+                <a href="http://www.nytimes.com/2015/09/23/nyregion/race-and-class-collide-in-a-plan-for-two-brooklyn-schools.html">
+                        <div class="wide-thumb">
+                    <img src="http://static01.nyt.com/images/2015/09/22/nyregion/DUMBO1-web/DUMBO1-web-mediumThreeByTwo210.jpg" />
+                                    </div>
+                 </a>
+        <h2 class="story-heading">
+            <a href="http://www.nytimes.com/2015/09/23/nyregion/race-and-class-collide-in-a-plan-for-two-brooklyn-schools.html">Race and Class Collide in Brooklyn School Plan</a>
+        </h2>
+        <p class="summary">
+            A proposal to rezone students from the predominantly white P.S. 8 to the mostly black P.S. 307 has drawn intense opposition from families at both schools.        </p>
+    </article>
+</div>
+</div>
+                </div><!-- close span-ab-bottom-region -->
+            
+        </section><!-- close top-news -->
+
+    </div><!-- close ab-column -->
+
+    <div class="c-column column">
+
+        <div id="Middle" class="ad middle-ad hidden nocontent robots-nocontent"></div>
+
+        <div class="region c-column-top-span-region">
+
+            
+        </div><!-- close c-column-top-span-region -->
+
+        <section class="opinion">
+
+            <div class="region opinion-c-col-top-region">
+                <div class="collection">
+            <section class="opinion">
+  <h2 class="section-heading"><a href="http://www.nytimes.com/pages/opinion/index.html">The Opinion Pages</a>
+  </h2>
+</section></div>
+            </div> <!-- close opinion-c-col-top-region -->
+
+            <div class="layout split-layout">
+
+                <div class="column">
+                    <div class="region opinion-c-col-left-region">
+                                            <div class="collection">
+            <article class="story theme-summary" data-story-id="100000003930061" data-rank="0" data-collection-renderstyle="HpSumXSMedia">
+    
+            <h3 class="kicker">Op-Ed | ZEYNEP TUFEKCI </h3>
+        <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/24/opinion/volkswagen-and-the-era-of-cheating-software.html">Volkswagen and the Era of Cheating Software</a></h2>
+    
+            <div class="small-thumb">
+            <a href="http://www.nytimes.com/2015/09/24/opinion/volkswagen-and-the-era-of-cheating-software.html"><img src="http://static01.nyt.com/images/2015/09/23/opinion/24zeynepWeb/24zeynepWeb-blogSmallThumb.jpg" alt=""></a>
+        </div>
+        
+    
+    <p class="summary">
+        A car company’s duplicity can help us try to catch a world of technology fraud.    </p>
+
+    
+    </article>
+
+</div>
+                                            <div class="collection headlines">
+            <ul class="theme-news-headlines">
+                    <li>
+            <article class="story" data-story-id="100000003929558" data-rank="0" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/opinion/what-was-volkswagen-thinking.html">Editorial: What Was Volkswagen Thinking?</a> </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929908" data-rank="1" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/opinion/the-republican-attack-on-muslims.html">Editorial: The Republican Attack on Muslims</a> </h2>
+</article>
+            </li>
+            </ul>
+</div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="region opinion-c-col-right-region">
+                                            <div class="collection">
+            <article class="story theme-summary" data-story-id="100000003931213" data-rank="0" data-collection-renderstyle="HpSum">
+    
+            <h3 class="kicker">Room for Debate </h3>
+        <h2 class="story-heading"><a href="http://www.nytimes.com/roomfordebate/2015/09/23/should-the-government-impose-drug-price-controls">Federal Drug Price Controls</a></h2>
+    
+    
+    <p class="summary">Are government limits the only way to reduce the rising costs of medications?</p>
+
+	
+	</article>
+
+</div>
+                                            <div class="collection headlines">
+            <ul class="theme-news-headlines">
+                    <li>
+            <article class="story" data-story-id="100000003929931" data-rank="0" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/opinion/frank-bruni-scott-walkers-cocktail-of-ignorance.html">Bruni: Scott Walker’s Cocktail of Ignorance</a> </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929933" data-rank="1" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/opinion/thomas-friedman-see-evil-hear-evil-speak-evil-in-us-and-israeli-politics.html">Friedman: Politicians Seeing Evil, Hearing Evil, Speaking Evil</a> <time class="timestamp" datetime="2015-09-23" data-eastern-timestamp="11:23 AM" data-utc-timestamp="1443021803">11:23 AM ET</time></h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930944" data-rank="2" data-collection-renderstyle="HpHeadline">
+        <h2 class="story-heading"><i class="icon"></i><a href="http://www.nytimes.com/2015/09/23/opinion/hurricane-trump.html">Edsall: Hurricane Trump</a> </h2>
+</article>
+            </li>
+            </ul>
+</div>
+                    </div>
+                </div>
+
+            </div> <!-- close split-layout -->
+
+            <div class="region opinion-c-col-bottom-region">
+                <div class="collection">
+            <style>	
+
+
+.c-column.column section.opinion div time.timestamp{
+	display:none;
+}
+
+
+</style><style>	
+.c-column.column section.opinion div p.theme-comments{
+	display:none;
+}
+
+
+
+</style></div>
+            </div> <!-- close opinion-c-col-bottom-region -->
+
+        </section> <!-- close opinion -->
+
+        <section class="user-subscriptions hidden">
+
+            <h2 class="section-heading visually-hidden">User Subscriptions</h2>
+
+            <div class="collection">
+    <div id="times-premier-subscription" class="times-premier-subscription hidden">
+        <ul class="theme-news-headlines">
+                                          <li>
+                  <article class="story">
+                    <h2 class="story-heading">
+                      <a href="http://www.nytimes.com/2015/09/22/insider/inside-a-jordanian-refugee-camp-reporters-notebook.html">Inside a Jordanian Refugee Camp: Reporter’s Notebook</a>
+                    </h2>
+                  </article>
+                </li>
+                              <li>
+                  <article class="story">
+                    <h2 class="story-heading">
+                      <a href="http://www.nytimes.com/2015/09/21/insider/thousands-ricochet-across-europe-inside-the-migrant-crisis.html">Thousands Ricochet Across Europe: Inside the Migrant Crisis</a>
+                    </h2>
+                  </article>
+                </li>
+                              <li>
+                  <article class="story">
+                    <h2 class="story-heading">
+                      <a href="http://www.nytimes.com/2015/09/21/insider/1966-pynchons-bleak-survey-of-race-relations.html">1966 | Pynchon’s Bleak Survey of Race Relations</a>
+                    </h2>
+                  </article>
+                </li>
+                                  </ul>
+      <div class="thumb">
+        <img src="http://static01.nyt.com/images/blogs_v5/times-insider/times-premier-slacked.png" alt="times premier logo" />
+      </div>
+    </div><!--close times-premier-subscription -->
+</div><!-- close collection -->
+
+<div class="collection">
+  <div id="times-premier-crossword-subscription" class="times-premier-crossword-subscription hidden">
+      <div class="layout split-layout">
+        <div class="column">
+          <div class="collection">
+            <article class="story">
+              <h3 class="kicker">
+                <a href="http://www.nytimes.com/times-insider">Times Insider &raquo;</a>
+              </h3>
+                              <h2 class="story-heading">
+                  <a href="http://www.nytimes.com/2015/09/22/insider/inside-a-jordanian-refugee-camp-reporters-notebook.html">Inside a Jordanian Refugee Camp: Reporter’s Notebook</a>
+                </h2>
+                          </article>
+          </div>
+        </div><!-- close column -->
+        <div class="column">
+	<div class="collection">
+	    <article class="story">
+	    	<h3 class="kicker">
+	    		<a href="http://www.nytimes.com/crosswords">The Crossword &raquo;</a>
+	    	</h3>
+			<h2 class="story-heading">
+				<a href="http://www.nytimes.com/crosswords">Play Today&rsquo;s Puzzle </a>
+			</h2>
+			<div class="thumb">
+				<a href="http://www.nytimes.com/crosswords">
+					<img src="http://static01.nyt.com/images/crosswords/crosswords_30x30.png" alt="" />
+				</a>
+			</div>
+	    </article>
+	</div>
+</div>
+      </div><!--close TimesPremiercrossword -->
+    </div><!--close times-premier-crossword-subscription -->
+</div><!-- close collection -->
+
+<div class="collection">
+    <div id="crossword-subscription" class="crossword-subscription hidden">
+        <div class="layout split-layout">
+            <div class="column">
+	<div class="collection">
+	    <article class="story">
+	    	<h3 class="kicker">
+	    		<a href="http://www.nytimes.com/crosswords">The Crossword &raquo;</a>
+	    	</h3>
+			<h2 class="story-heading">
+				<a href="http://www.nytimes.com/crosswords">Play Today&rsquo;s Puzzle </a>
+			</h2>
+			<div class="thumb">
+				<a href="http://www.nytimes.com/crosswords">
+					<img src="http://static01.nyt.com/images/crosswords/crosswords_30x30.png" alt="" />
+				</a>
+			</div>
+	    </article>
+	</div>
+</div>
+            <div class="column">
+                <div class="collection">
+                    <article class="story">
+                        <h3 class="kicker">
+                          <a href="http://wordplay.blogs.nytimes.com">Wordplay &raquo;</a>
+                        </h3>
+                                                  <h2 class="story-heading">
+                            <a href="http://wordplay.blogs.nytimes.com/2015/09/22/perfect-as-a-sonnet/">Perfect as a Sonnet</a>
+                          </h2>
+                                            </article>
+                </div>
+            </div><!-- close column -->
+        </div><!-- close layout -->
+    </div><!-- close crossword-subscription -->
+</div><!--close collection -->
+
+        </section><!-- close user-subscriptions -->
+
+        <div id="HPMiddle" class="ad hpmiddle-ad nocontent robots-nocontent"></div>
+
+        <div class="region c-column-middle-span-region">
+
+            <div class="collection">
+            <link rel="stylesheet" type="text/css" href="http://int.nyt.com/applications/portals/assets/portal-3dc2bf0e7593a689f857e1edec4a2566.css"/>
+
+<div id="nytint-hp-watching">
+  <div class="portal-container">
+    <header class="portal-header">
+      <h4>Watching</h4>
+    </header>
+    <div class="portal-posts-frame expanded"></div>
+    <footer class="portal-footer"></footer>
+  </div>
+</div>
+
+<script type="text/javascript" src="http://int.nyt.com/applications/portals/assets/portal/app-d37d526acc5f1ea70c6a0bee273416cc.js"></script>
+<script type="text/javascript">
+require(['foundation/main'], function() {
+  require(['homepage/main'], function() {
+    require(['portal/app'], function(Portal) {
+        
+      var opts = {
+        env: 'production_published',
+        matchHeight: {
+          match: '.span-ab-layout.layout > .ab-column',
+          container: '.c-column.column',
+          maxHeight: 2000
+        }
+      }
+
+      var force = window.location.search.indexOf('portal_variant=watchingNoScroll') !== -1;
+      if (force || (NYTABTEST && NYTABTEST.engine &&
+          NYTABTEST.engine.isUserVariant('watchingNoScroll') === '1')) {
+        opts.variation = 'simple';
+        opts.poll = false;
+        opts.limit = 20;
+      }
+
+      var watching = Portal.create('#nytint-hp-watching', opts);
+    });
+  });
+});
+</script></div>
+
+        </div><!-- close c-column-middle-span-region -->
+
+        <div class="region c-column-above-moth-fixed-region">
+
+            
+        </div><!-- close c-column-above-moth-fixed-region -->
+
+        <div class="region c-column-above-moth-region">
+
+            
+        </div><!-- close c-column-above-moth-region -->
+
+    </div><!-- close c-column -->
+
+</div><!-- close span-ab-layout -->
+
+<div id="HPBreak" class="ad hpbreak-ad nocontent robots-nocontent hidden"></div>
+
+
+
+<div id="video-player-region" class="video-player-region region">
+    <div class="collection">
+            <div id="video-module-loader" class="loader-container video-section-loader-container">
+    <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+</div>
+<section id="video-section"
+         class="video-section invisible"
+         data-playlist-id="1194811622188"
+         data-api-token="cE97ArV7TzqBzkmeRVVhJ8O6GWME2iG_bRvjBTlNb4o."
+         data-player-id="2640832222001"
+         data-publisher-id="1749339200">
+    <header class="section-header">
+        <h2 class="section-heading"><a class="times-video-link" href="http://www.nytimes.com/video">times<span>video</span></a></h2>
+        <a href="http://www.nytimes.com/video?src=vidm" class="user-action explore-all-videos-link"> explore all videos &raquo;</a>
+    </header>
+    <div class="column a-column">
+        <article class="story">
+            <figure class="media video video-player" aria-label="media" role="group">
+                <span class="visually-hidden">Video Player</span>
+                <img src="" class="poster" alt="" />
+                <div class="video-player-container"></div>
+                <div class="media-action-overlay"></div>
+                <div class="sharetools video-sharetools"
+                    data-shares="email|,facebook|,twitter|,embed|,show-all|"
+                    data-url=""
+                    data-title=""
+                    data-description=""
+                    data-content-type="video">
+                </div>
+                <figcaption class="credit"></figcaption>
+            </figure>
+        </article>
+    </div>
+    <div class="column b-column">
+        <div id="video-playlist-container" class="video-playlist-container">
+            <ul id="video-playlist" class="video-playlist"></ul>
+        </div>
+    </div> <!-- end b-column -->
+</section>
+</div>
+</div><!-- close video-player-region -->
+
+<section class="inside-nyt">
+    <div class="inside-nyt-region region">
+        <h2 class="section-heading">Inside Nytimes.com</h2>
+        <div id="inside-nyt-browser" class="inside-nyt-browser">
+            <div class="navigation-control">
+                <button class="button previous deactivated">
+                    <div class="arrow arrow-left">
+                    <span class="visually-hidden">Go to the previous story</span>
+                    <div class="arrow-conceal"></div>
+                    </div>
+                </button>
+                <button class="button next">
+                    <div class="arrow arrow-right">
+                    <span class="visually-hidden">Go to the next story</span>
+                    <div class="arrow-conceal"></div>
+                    </div>
+                </button>
+            </div>
+            <div class="carousel">
+                <ol class="menu layout-horizontal theme-story">
+                    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/arts/design/index.html">Art & Design</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003926563" data-rank="0" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/arts/design/making-times-squares-pedestrian-plazas-work.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/arts/23PLAZASJP1/23PLAZASJP1-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Making Times Square’s Plazas Work</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003927806" data-rank="1" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/opinion/whatever-happened-to-german-america.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/opinion/23Kirschbaum/23Kirschbaum-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Op-Ed: What Happened to German America?</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/dining/index.html">Food</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003919376" data-rank="2" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/dining/how-to-cook-without-a-recipe.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/dining/23RECIPE1/23RECIPE1-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">5 Easy Meals for the Distracted Cook</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a></h2>
+
+    <article class="story theme-summary no-thumb" data-story-id="100000003931536" data-rank="3" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://opinionator.blogs.nytimes.com/2015/09/23/writers-block-at-the-tombstone/?ref=opinion">
+            <h2 class="story-heading">Writer’s Block at the Tombstone</h2>
+            <p class="summary">How could we be truthful about our anger toward our father, yet memorialize the love he inspired in others?</p>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/sports/baseball/index.html">Baseball</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003931082" data-rank="4" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/sports/greg-birds-home-run-in-10th-lifts-yankees-over-blue-jays.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/sports/CITY-JP-YANKEES/CITY-JP-YANKEES-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Home Run in 10th Lifts Yankees Over Blue Jays</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/national/index.html">U.S.</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003929667" data-rank="5" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/us/los-angeles-plans-100-million-effort-to-end-homelessness.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/us/HOMELESS/HOMELESS-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Los Angeles to Spend Millions on Homeless</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/arts/music/index.html">Music</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003928049" data-rank="0" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/arts/music/teaming-up-together-drake-and-future-or-apart-ryan-adams-and-taylor-swift.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/arts/23TAYLORDRAKE/23TAYLORDRAKE-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Teaming Up Together or Apart</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003929908" data-rank="1" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/opinion/the-republican-attack-on-muslims.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/opinion/23wed1/23wed1-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">The Republican Attack on Muslims</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/fashion/index.html">Fashion & Style</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003929348" data-rank="2" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/fashion/london-fashion-week-spring-2016-burberry-christopher-bailey-anya-hindmarch.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/fashion/23review-AA/23review-AA-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Fashion Week Review: A Burberry Concert</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a></h2>
+
+    <article class="story theme-summary no-thumb" data-story-id="100000003931398" data-rank="3" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/roomfordebate/2015/09/23/should-the-government-impose-drug-price-controls?ref=international">
+            <h2 class="story-heading">Should the Government Impose Drug Price Controls?</h2>
+            <p class="summary">Room for Debate asks: Is tougher action needed to ensure that Americans can afford the medications they need?</p>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/books/index.html">Books</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003927308" data-rank="4" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/books/ta-nehisi-coates-to-write-black-panther-comic-for-marvel.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/arts/23comics-1/23comics-1-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Ta-Nehisi Coates to Write Black Panther Comic</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+    <li>
+        <section>
+        <h2 class="section-heading"><a href="http://www.nytimes.com/pages/sports/baseball/index.html">Baseball</a></h2>
+
+    <article class="story theme-summary" data-story-id="100000003929037" data-rank="5" data-collection-renderstyle="Moth">
+        <a class="story-link" href="http://www.nytimes.com/2015/09/23/sports/baseball/new-york-mets-baseball-season-endings.html">
+            <div class="wide-thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/sports/23metsfans-sub-illo/23metsfans-sub-illo-mediumSquare149.jpg" alt="">
+            </div>
+            <h2 class="story-heading">Fans Script Endings to Mets’ Season</h2>
+        </a>
+    </article>
+
+        </section>
+    </li>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="HPMidLeader" class="ad hpmidleader-ad nocontent robots-nocontent"></div>
+
+<div class="span-ab-layout layout">
+
+    <div class="ab-column column">
+
+        <hr class="scotch-rule" />
+
+            <section class="well">
+    <div class="region well-region">
+        <h2 class="section-heading visually-hidden">Sections</h2>
+
+                
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/world/index.html">World &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003931593" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/24/world/middleeast/mohamed-fahmy-baher-mohamed-egypt-pardon.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/24/world/24Egypt-web/24Egypt-web-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Egypt’s President Pardons Journalists Mohamed Fahmy and Baher Mohamed        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929882" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/world/asia/xi-jinping-of-china-to-address-wary-us-business-leaders.html">
+            Xi Jinping Pledges to Work With U.S. to Stop Cybercrimes        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003926794" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/world/middleeast/as-others-flee-to-west-most-syrian-refugees-remain-in-region.html">
+            As Others Flee to West, Most Syrian Refugees Remain in Region        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/business/index.html">Business Day &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003931661" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/24/business/international/volkswagen-chief-martin-winterkorn-resigns-amid-emissions-scandal.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/business/23WINTERKORNsub/23WINTERKORNsub-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Volkswagen Chief Martin Winterkorn Resigns Amid Emissions Scandal        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929879" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/business/international/volkswagen-test-rigging-follows-a-long-auto-industry-pattern.html">
+            Volkswagen Test Rigging Follows a Long Auto Industry Pattern        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929415" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/interactive/2015/09/22/business/international/vw-volkswagen-emissions-explainer.html">
+            How Volkswagen Got Away With Diesel Deception        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003927508" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/22/opinion/pope-francis-the-prince-of-the-personal.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2014/11/01/opinion/brooks-circular/brooks-circular-thumbStandard-v2.png" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        David Brooks: Pope Francis, the Prince of the Personal        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927741" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/22/opinion/californias-right-to-die-bill.html">
+            Editorial: California’s Right-to-Die Bill        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927509" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/22/opinion/joe-nocera-trump-vs-fiorina.html">
+            Joe Nocera: Trump and Fiorina’s Snake Oil Sales        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/national/index.html">U.S. &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003931678" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/24/us/pope-francis-remarks-at-the-white-house.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/24/us/23popeliveblog-poperemarks/23popeliveblog-poperemarks-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Francis in America: Pope Francis’ Remarks at the White House        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003923804" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/us/frank-gehry-draws-ire-for-joining-los-angeles-river-restoration-project.html">
+            Frank Gehry Draws Ire for Joining Los Angeles River Restoration Project        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003920309" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/us/pope-francis-popularity-bridges-great-divides.html">
+            Francis in America: Pope Francis’ Popularity Bridges Great Divides        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/technology/index.html">Technology &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003926153" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/24/technology/personaltech/testing-iphone-6s-3d-touch-and-live-photos-features.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/21/multimedia/iphone6s-review/iphone6s-review-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Tech Fix: Testing iPhone 6s’s 3D Touch and Live Photos Features          </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927560" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/technology/personaltech/iphone-6s-hands-free-siri-is-an-omen-of-the-future.html">
+            State of the Art: IPhone 6s’s Hands-Free Siri Is an Omen of the Future          </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929678" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/technology/personaltech/siri-apple-music-and-other-iphone-questions.html">
+            Q&A: Siri, Apple Music and Other iPhone Questions        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/arts/index.html">Arts &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003916296" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/27/arts/television/trevor-noah-daily-show-jon-stewart.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/27/arts/27NOAH/27NOAH-thumbStandard-v2.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Trevor Noah on His ‘Daily Show’ Plans and Jon Stewart’s Advice        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003926795" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/27/theater/lupita-nyongo-shines-a-light-on-africa.html">
+            Lupita Nyong’o Shines a Light on Africa        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003926563" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/arts/design/making-times-squares-pedestrian-plazas-work.html">
+            Critic's Notebook: Making Times Square’s Pedestrian Plazas Work        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/politics/index.html">Politics &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003931500" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/politics/first-draft/2015/09/23/today-in-politics-a-first-time-visitor-to-washington-plans-to-hit-all-the-sights/">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/us/22firstdraft-newsletter/22firstdraft-newsletter-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        First Draft: Today in Politics: A First-Time Visitor to Washington Plans to Hit All the Sights        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930631" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/us/politics/pope-francis-obama-white-house.html">
+            Francis in America: Pope Francis, in White House Ceremony, Praises Obama’s Action on Climate Change        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930944" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/opinion/hurricane-trump.html">
+            Thomas B. Edsall: Hurricane Trump        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion & Style &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003923435" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/fashion/gucci-alessandro-michele.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/multimedia/inthestudio2015-michele/inthestudio2015-michele-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        In the Studio: At Work With Alessandro Michele, Gucci’s Creative Director        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930382" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/style/pope-francis-visit-parties.html">
+            Pope Francis’s Visit Offers a Reason to Party        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927825" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/fashion/why-everything-is-bad-for-you.html">
+            Why Everything is Bad for You        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/movies/index.html">Movies &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003913260" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/20/movies/in-the-walk-philippe-petits-high-wire-act-is-both-art-and-entertainment.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/20/arts/20THEWALK1/20THEWALK1-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        ‘The Walk’ Replays Philippe Petit’s High-Wire Act — but Was It Art?        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003913946" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/20/movies/with-the-intern-nancy-meyers-keeps-exploring-relationships.html">
+            With ‘The Intern,’ Nancy Meyers Keeps Exploring Women’s Relationships        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927587" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://artsbeat.blogs.nytimes.com/2015/09/21/albert-maysles-will-get-a-tribute-at-the-new-york-film-festival/">
+            Albert Maysles Will Get a Tribute at the New York Film Festival        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/nyregion/index.html">New York &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003930311" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/24/nyregion/tumult-in-a-manhattan-oasis-over-an-affordable-housing-plan.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/nyregion/BLOCKS1-web/BLOCKS1-web-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Building Blocks: Tumult in a Manhattan Oasis Over an Affordable Housing Plan        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929962" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/nyregion/for-its-newest-park-governors-island-will-take-visitors-to-the-hills.html">
+            For Its Newest Park, Governors Island Will Take Visitors to the Hills        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929512" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/nyregion/race-and-class-collide-in-a-plan-for-two-brooklyn-schools.html">
+            Race and Class Collide in a Plan for Two Brooklyn Schools        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/sports/index.html">Sports &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003704710" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/24/sports/baseball/yogi-berra-dies-at-90-yankees-baseball-catcher.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2013/01/03/obituaries/20130103Yogi-Berra-Obit-slide-N90W/20130103Yogi-Berra-Obit-slide-N90W-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Yogi Berra, Yankees Hall of Fame Catcher With a One-of-a-Kind Wit, Dies at 90        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003931487" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/sports/yogi-berra-yogi-isms-quotes-explored.html">
+            The Real Roots of Those Famous Yogi Berra Quotes        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003931082" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/sports/greg-birds-home-run-in-10th-lifts-yankees-over-blue-jays.html">
+            Yankees 6, Blue Jays 4 | 10 Innings: Greg Bird’s Home Run in 10th Lifts Yankees Over Blue Jays        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://theater.nytimes.com/">Theater &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003921609" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/theater/review-baby-doll-a-child-woman-at-the-center-of-a-moral-sinkhole.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/arts/23BABYDOLL/23BABYDOLL-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Review: ‘Baby Doll,’ a Child-Woman at the Center of a Moral Sinkhole        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003928051" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/theater/review-pondling-looks-deep-into-the-heart-of-a-disturbed-child.html">
+            Review: ‘Pondling’ Looks Deep Into the Heart of a Disturbed Child        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930082" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/theater/theaterspecial/tony-awards-may-leave-radio-city-for-beacon-theater.html">
+            Tony Awards May Leave Radio City for Beacon Theater        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/section/science">Science &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003928812" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/science/dr-william-e-paul-who-helped-aids-research-save-millions-of-lives-dies-at-79.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/us/23PAUL-OBIT-SUB/23PAUL-OBIT-SUB-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Dr. William E. Paul, Who Helped AIDS Research Save Millions of Lives, Dies at 79        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930465" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/science/global-companies-joining-climate-change-efforts.html">
+            Global Companies Joining Climate Change Efforts         </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003815635" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/22/science/9-years-of-muck-mud-and-debate-in-java.html">
+            Indonesia’s ‘Mud Volcano’ and Nine Years of Debate About Its Muck        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/section/obituaries">Obituaries &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003927050" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/obituaries/georges-de-paris-tailor-to-nine-presidents-dies-at-80.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/us/22DEPARIS-OBIT/22DEPARIS-OBIT-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Georges de Paris, Tailor to Nine Presidents, Dies at 80        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003928812" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/science/dr-william-e-paul-who-helped-aids-research-save-millions-of-lives-dies-at-79.html">
+            Dr. William E. Paul, Who Helped AIDS Research Save Millions of Lives, Dies at 79        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929739" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/arts/music/sir-david-willcocks-conductor-who-influenced-british-choral-music-dies-at-95.html">
+            Sir David Willcocks, Conductor Who Influenced British Choral Music, Dies at 95        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/arts/television/index.html">Television &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003916296" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/27/arts/television/trevor-noah-daily-show-jon-stewart.html">
+
+        
+        <h3 class="story-heading">
+        Trevor Noah on His ‘Daily Show’ Plans and Jon Stewart’s Advice        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003913644" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/17/arts/television/review-heroes-reborn-finds-its-superhumans-again-fighting-to-save-the-world-and-themselves.html">
+            Review: ‘Heroes Reborn’ Finds Its Superhumans Again Fighting to Save the World and Themselves        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930328" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/arts/television/jim-gaffigan-on-performing-stand-up-for-pope-francis.html">
+            Francis in America: Jim Gaffigan on Performing Stand-Up for Pope Francis        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/health/index.html">Health &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003931440" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://well.blogs.nytimes.com/2015/09/23/sitting-is-bad-for-children-too/">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/health/well_physed/well_physed-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Phys Ed: Sitting Is Bad for Children, Too        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003931430" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://well.blogs.nytimes.com/2015/09/23/consumers-are-embracing-full-fat-foods/">
+            Well: Consumers Are Embracing Full-Fat Foods        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930721" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/business/big-price-increase-for-an-old-drug-will-be-rolled-back-turing-chief-says.html">
+            Jump in Price for an Old Drug Will Be Rolled Back, C.E.O. Shkreli Says          </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/section/travel">Travel &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003909875" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/27/travel/visit-london-budget-travel.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/27/travel/27FRUGAL1/27FRUGAL1-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Frugal Traveler: A $1,000 Day in London for $100        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003910670" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/27/travel/barcelona-paris-cheap-hotels.html">
+            In Europe’s Top Destinations, Hotels to Suit Your Wallet        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003896673" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/27/travel/iceland-tours-hiking.html">
+            Q&A: From Alaska to Iceland, Breaking Barriers to Arctic Travel        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/books/index.html">Books &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003930918" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/business/media/the-plot-twist-e-book-sales-slip-and-print-is-far-from-dead.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/business/23jpEBOOKS1/23jpEBOOKS1-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        The Plot Twist: E-Book Sales Slip, and Print Is Far From Dead        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003928040" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/books/review-in-deep-south-paul-theroux-takes-an-eye-opening-road-trip.html">
+            Books of The Times: Review: In ‘Deep South,’ Paul Theroux Takes an Eye-Opening Road Trip        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003917127" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/27/books/review/anne-marie-slaughters-unfinished-business-women-men-work-family.html">
+            Anne-Marie Slaughter’s ‘Unfinished Business: Women Men Work Family’        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/education/index.html">Education &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003928975" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/business/economy/education-gap-between-rich-and-poor-is-growing-wider.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/business/23porter-web/23porter-web-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Economic Scene: Education Gap Between Rich and Poor Is Growing Wider           </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003888230" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/interactive/2015/09/07/us/detroit-graduates-firstyear.html">
+            The Detroit Graduates        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003632584" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/interactive/2015/04/17/nyregion/success-academy-parents-voices.html">
+            Stories From Current and Former Success Academy Parents        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/dining/index.html">Food &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003916325" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/dining/weeknight-recipes-and-cooking-strategies.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/dining/23PANTRY2/23PANTRY2-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Weeknight Recipes and Cooking Strategies        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003921561" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/dining/restaurant-review-gabriel-kreuther-in-midtown.html">
+            Restaurant Review: Gabriel Kreuther in Midtown        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003785323" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/dining/panda-express-takes-a-second-run-at-new-york.html">
+            Panda Express Takes a Second Run at New York        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/opinion/index.html#sundayreview">Sunday Review &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003910601" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/20/opinion/sunday/a-toxic-work-world.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/20/opinion/sunday/20slaughterWEB2/20slaughterWEB2-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Opinion: A Toxic Work World        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003918781" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/20/opinion/how-to-close-guantanamo.html">
+            Editorial: How to Close Guantánamo        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003920254" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/20/opinion/sunday/ross-douthat-evangelicals-and-the-carson-illusion.html">
+            Ross Douthat: Evangelicals and the Carson Illusion        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003929940" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/27/realestate/in-douglaston-queens-parks-and-waterfront.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/27/realestate/27LIVING-DOUGLASTON-slide-Z4ZK-copy/27LIVING-DOUGLASTON-slide-Z4ZK-copy-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Living In: In Douglaston, Queens, Parks and Waterfront        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929913" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/realestate/2-million-dollar-homes-in-saratoga-springs-chicago-and-spicewood-texas.html">
+            What You Get: $2,000,000 Homes in New York, Chicago and Texas        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930425" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/realestate/real-estate-in-the-netherlands.html">
+            International Real Estate: House Hunting in ... the Netherlands        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/upshot/">The Upshot &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003929239" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/upshot/why-some-policy-experts-question-clintons-plan-to-contain-drug-costs.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/upshot/23UP-CLinton/23UP-CLinton-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Public Health: Why Some Policy Experts Question Clinton’s Plan to Contain Drug Costs        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003930896" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/24/upshot/the-great-divide-in-workplace-benefits.html">
+            Work-Life Balance: The Great Divide in Workplace Benefits        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927846" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/22/upshot/10-things-i-learned-about-donald-trump-in-the-art-of-the-deal.html">
+            Road to 2016: 10 Things I Learned About Donald Trump in ‘The Art of the Deal’        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/section/magazine">Magazine &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003929923" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/22/magazine/what-scott-walker-could-have-learned-from-george-w-bush.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/magazine/22mag-walker/22mag-walker-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        What Scott Walker Could Have Learned From George W. Bush        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003926771" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/21/magazine/the-understated-elegance-of-the-airline-scarf.html">
+            On Clothing: The Understated Elegance of the Airline Scarf        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003922068" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/18/magazine/the-de-reaganization-of-the-republican-party.html">
+            Notebook: The De-Reaganization of the Republican Party        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+        
+            <div class="split-3-layout layout theme-base">
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003929879" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/24/business/international/volkswagen-test-rigging-follows-a-long-auto-industry-pattern.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/23/business/23auto-web/23auto-web-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Volkswagen Test Rigging Follows a Long Auto Industry Pattern        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003929928" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/business/international/volkswagens-chief-in-the-vortex-of-the-storm.html">
+            Volkswagen’s Chief in the Vortex of the Storm        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003928707" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/business/international/volkswagen-diesel-car-scandal.html">
+            Volkswagen Says 11 Million Cars Worldwide Are Affected in Diesel Deception        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column ">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/section/t-magazine">T Magazine &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003873802" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/23/t-magazine/angelo-donghia-80s-interior-designer.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/27/t-magazine/27tmag-10qual_donghia-t_CA0/27tmag-10qual_donghia-t_CA0-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        By Design: Angelo Donghia, the Purist        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003873778" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/t-magazine/ghesquiere-palm-springs-modernism.html">
+            Fashion: Palm Springs Modernism, According to Nicolas Ghesquière        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003931609" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/23/t-magazine/three-trend-chintz-erdem-almeida-wickstead-london-fashion-week.html">
+            Fashion: Three’s a Trend: Chintz        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+                    <div class="column last-column">
+
+                        <section>
+    <h2 class="section-heading">
+        <a href="http://www.nytimes.com/times-insider/">Times Insider &raquo;</a>
+    </h2>
+    <ul>
+                    <li>
+            <article class="story theme-summary" data-story-id="100000003928965" data-rank="0" data-collection-renderstyle="HpHedThumbWell">
+
+    <a class="story-link" href="http://www.nytimes.com/2015/09/22/insider/inside-a-jordanian-refugee-camp-reporters-notebook.html">
+
+                    <div class="thumb">
+                <img src="http://static01.nyt.com/images/2015/09/22/world/23zaatari-web1/23zaatari-web1-thumbStandard.jpg" alt="" />
+            </div>
+        
+        <h3 class="story-heading">
+        Inside a Jordanian Refugee Camp: Reporter’s Notebook        </h3>
+    </a>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003927033" data-rank="1" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/21/insider/thousands-ricochet-across-europe-inside-the-migrant-crisis.html">
+            Thousands Ricochet Across Europe: Inside the Migrant Crisis        </a>
+    </h2>
+</article>
+            </li>
+                    <li>
+            <article class="story" data-story-id="100000003926963" data-rank="2" data-collection-renderstyle="HpHedThumbWell">
+
+    <h2 class="story-heading">
+        <a href="http://www.nytimes.com/2015/09/21/insider/1966-pynchons-bleak-survey-of-race-relations.html">
+            Looking Back: 1966 | Pynchon’s Bleak Survey of Race Relations        </a>
+    </h2>
+</article>
+            </li>
+            </ul>
+</section>
+
+                    </div> <!-- close column -->
+
+                                
+            </div><!-- close split-3-layout -->
+
+            </div>
+</section><!-- close well section -->
+
+    </div><!-- close ab-column -->
+
+    <div class="c-column column">
+
+        
+                    <section class="real-estate">
+                <div class="layout split-layout theme-base">
+                    <div class="column">
+                        <div class="region real-estate-left-region">
+
+                            <div class="collection">
+                <h2 class="section-heading">
+            <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate &raquo;</a>
+        </h2>
+        <article class="story theme-summary" data-story-id="100000003915546" data-rank="0" data-collection-renderstyle="HpSectionSumSmallMedia">
+    
+            <h3 class="kicker">Mortgages </h3>
+    
+    <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/20/realestate/fewer-underwater-mortgage-holders.html">Fewer Underwater Mortgage Holders</a></h2>
+
+            <p class="byline">By LISA PREVOST </p>
+    
+            <div class="thumb">
+            <a href="http://www.nytimes.com/2015/09/20/realestate/fewer-underwater-mortgage-holders.html"><img src="http://static01.nyt.com/images/2015/09/20/realestate/20mort-gr/20mort-gr-thumbStandard.jpg" alt=""></a>
+        </div>
+    
+    <p class="summary">
+        The share of mortgage holders who owe more than their homes are worth has dropped by more than half since peaking in early 2012.    </p>
+
+    
+        <ul class="refer theme-news-headlines">
+            <li>
+            <article class="story">
+                <h2 class="refer-heading"><a href="http://www.nytimes.com/column/mortgages">More Articles in the Series</a></h2>
+            </article>
+        </li>
+        </ul>
+</article>
+
+</div>
+<div class="collection">
+            <ul class="theme-module-headlines">
+<li><article class="story" data-collection-renderstyle="HpHeadline"><h2 class="story-heading"><a href="http://realestate.nytimes.com/search/advanced.aspx">Search for Homes for Sale or Rent</a></h2></article></li>
+
+<li><article class="story" data-collection-renderstyle="HpHeadline"><h2 class="story-heading"><a href="http://www.nytimes.com/ref/classifieds/">Sell Your Home</a></h2></article></li></ul>
+
+</div>
+
+                        </div><!-- close real-estate-left-region -->
+                    </div>
+                    <div class="column">
+                        <div class="region real-estate-right-region">
+
+                            <div class="collection">
+            <div id="HPmodule-RE2-alternate-content"><div></div>
+<div class="collection">
+                <h3 class="kicker collection-kicker">&nbsp;</h3>
+        <article class="story theme-summary" data-story-id="100000003916854" data-rank="0" data-collection-renderstyle="HpSumSmallMedia">
+    
+            <h3 class="kicker">What I Love </h3>
+    
+    <h2 class="story-heading"><a href="http://www.nytimes.com/2015/09/20/realestate/julie-white-fairy-tale-cottage-in-cortlandt-manor.html">Julie White’s Fairy Tale Cottage</a></h2>
+
+            <p class="byline">By JOANNE KAUFMAN </p>
+    
+            <div class="thumb">
+            <a href="http://www.nytimes.com/2015/09/20/realestate/julie-white-fairy-tale-cottage-in-cortlandt-manor.html"><img src="http://static01.nyt.com/images/2015/09/20/realestate/20LOVE-slide-BKCB/20LOVE-slide-BKCB-thumbStandard.jpg" alt=""></a>
+        </div>
+    
+    <p class="summary">
+        The Broadway actress’s 1934 Cortlandt Manor, N.Y., home underwent extensive renovations after she bought it last year.    </p>
+
+    
+        <ul class="refer theme-news-headlines">
+            <li>
+            <article class="story">
+                <h2 class="refer-heading"><a href="http://www.nytimes.com/column/what-i-love">More Articles in the Series</a></h2>
+            </article>
+        </li>
+        </ul>
+</article>
+
+</div>
+<div class="collection">
+            </div></div></div>
+
+                            <div id="HPmodule-RE2" class="ad hpmodule-re2-ad nocontent robots-nocontent"></div>
+                        </div><!-- close real-estate-right-region -->
+                    </div>
+                </div>
+            </section>
+        
+        
+        <section id="recommendations" class="recommendations">
+    <div class="tabs-container">
+        <ul class="tabs">
+            <li data-type="most-emailed"><a href="http://www.nytimes.com/gst/mostemailed.html">Most Emailed</a></li><li data-type="most-viewed"><a href="http://www.nytimes.com/gst/mostpopular.html">Most Viewed</a></li><li data-type="recommended"><a href="http://www.nytimes.com/recommendations">Recommended for you</a></li>
+        </ul>
+    </div>
+    <div class="tab-content most-emailed">
+        <div class="loader"></div>
+    </div>
+    <div class="tab-content most-viewed">
+        <div class="loader"></div>
+    </div>
+    <div class="tab-content recommended">
+        <div class="loader"></div>
+    </div><!-- end tabs-container -->
+    <div id="recommendations-module-loader" class="loader-container">
+        <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+    </div>
+</section>
+
+        <div id="Box1" class="ad box1-ad nocontent robots-nocontent"></div>
+        <div id="HPPromo" class="ad hppromo-ad nocontent robots-nocontent"></div>
+        <div id="HPBottom1" class="ad hpbottom1-ad nocontent robots-nocontent"></div>
+
+    </div><!-- close c-column -->
+
+</div><!-- close span-ab-layout -->
+
+<div id="HPSponLink" class="ad hpsponlink-ad nocontent robots-nocontent"></div>
+<div id="Bottom8" class="ad bottom8-ad nocontent robots-nocontent"></div>
+<div id="Bottom9" class="ad bottom9-ad nocontent robots-nocontent"></div>
+                    <div class="search-overlay"></div>
+            </main><!-- close main -->
+            <section id="site-index" class="site-index">
+    <header class="section-header">
+        <p class="user-action"><a href="http://www.nytimes.com/">Go to Home Page &raquo;</a></p>
+        <h2 class="section-heading">
+            <span class="visually-hidden">Site Index</span>
+            <a id="site-index-branding-link" href="http://www.nytimes.com/">
+                <span class="visually-hidden">The New York Times</span>
+            </a>
+        </h2>
+        <script>window.magnum.writeLogo('small', 'http://a1.nyt.com/assets/homepage/20150911-134143/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link');</script>
+    </header>
+
+    <nav id="site-index-navigation" class="site-index-navigation" role="navigation">
+
+        <div class="split-6-layout layout">
+
+                                                                                    
+                    <div class="column">
+                        <h3 class="menu-heading">News</h3>
+                        <ul class="menu">
+
+                                                                                                                                                                                                                                                
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/world/index.html">World</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/politics/index.html">Politics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/technology/index.html">Tech</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/obituaries/index.html">Obituaries</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/corrections/index.html">Corrections</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Opinion</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html">Today's Opinion</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#columnists">Op-Ed Columnists</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#editorials">Editorials</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#contributing">Contributing Writers</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#op-ed">Op-Ed Contributors</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#opinionator">Opinionator</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#letters">Letters</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#sundayreview">Sunday Review</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/opinion/index.html#takingNote">Taking Note</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/roomfordebate/">Room for Debate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/opinion/">Video: Opinion</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Arts</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/index.html">Today's Arts</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/design/index.html">Art & Design</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://artsbeat.blogs.nytimes.com/">ArtsBeat</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/books/index.html">Books</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/dance/index.html">Dance</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/movies/index.html">Movies</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/music/index.html">Music</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/television/index.html">Television</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/theater/index.html">Theater</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/arts/video-games/index.html">Video Games</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/arts/">Video: Arts</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Living</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/crosswords/">Crossword</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/dining/index.html">Food</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/education/index.html">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion & Style</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/health/index.html">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/jobs">Jobs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/magazine/index.html">Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/section/t-magazine">T Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/travel/index.html">Travel</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/fashion/weddings/index.html">Weddings & Celebrations</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Listings & More</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/ref/classifieds/">Classifieds</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/marketing/tools-and-services/">Tools & Services</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/topics/">Times Topics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://topics.nytimes.com/top/opinion/thepubliceditor/index.html">Public Editor</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://tvlistings.nytimes.com/tvlistings/ZCGrid.do?aid=nyt">TV Listings</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/interactive/blogs/directory.html">Blogs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://wordplay.blogs.nytimes.com/cartoons/">Cartoons</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/pages/multimedia/index.html">Multimedia</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://lens.blogs.nytimes.com/">Photography</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/video/">Video</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/store/?&t=qry542&utm_source=nytimes&utm_medium=HPB&utm_content=hp_browsetree&utm_campaign=NYT-HP&module=SectionsNav&action=click&region=TopBar&version=BrowseTree&contentCollection=NYT%20Store&contentPlacement=2&pgtype=Homepage">NYT Store</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/times-journeys/?utm_source=nytimes&utm_medium=HPLink&utm_content=hp_browsetree&utm_campaign=NYT-HP">Times Journeys</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/seeallnav">Subscribe</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytimes.com/membercenter">Manage My Account</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                            
+            <div class="column last-column">
+                
+<h3 class="menu-heading">Subscribe</h3>
+
+<ul class="menu primary-menu">
+    <li class="menu-label">Subscribe</li>
+    <li class="times-premier">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/tpnav">Times Premier</a>
+    </li>
+
+    <li class="home-delivery">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/hdleftnav">Home Delivery</a>
+            </li>
+    <li class="digital-subscriptions">
+        <i class="icon sprite-icon"></i>
+                    <a href="http://www.nytimes.com/digitalleftnav">Digital Subscriptions</a>
+            </li>
+    <li class="nyt-opinion">
+        <i class="icon sprite-icon"></i>
+        <a href="http://www.nytimes.com/opinionindex">NYT Opinion</a>
+    </li>
+    <li class="nyt-crossword last-item">
+        <i class="icon sprite-icon"></i>
+        <a id="nyt-crossword" href="http://www.nytimes.com/crosswords/index.html">Crossword</a>
+    </li>
+
+</ul>
+
+<ul class="menu secondary-menu">
+
+    <li>
+        <a href="http://www.nytimes.com/marketing/newsletters">Email Newsletters</a>
+    </li>
+    <li>
+        <a href="https://myaccount.nytimes.com/mem/tnt.html">Alerts</a>
+    </li>
+    <li>
+                    <a href="http://www.nytimes.com/giftleftnav">Gift Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/corporateleftnav">Corporate Subscriptions</a>
+            </li>
+    <li>
+                    <a href="http://www.nytimes.com/educationleftnav">Education Rate</a>
+            </li>
+
+</ul>
+<ul class="menu secondary-menu">
+    <li>
+        <a href="http://www.nytimes.com/services/mobile/index.html">Mobile Applications</a>
+    </li>
+    <li>
+                    <a href="http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY">Replica Edition</a>
+            </li>
+                <li>
+            <a href="http://subscribe.inyt.com">International New York Times</a>
+        </li>
+    
+</ul>
+
+            </div><!-- close column -->
+
+        </div><!-- close split-6-layout -->
+
+    </nav><!-- close nav -->
+
+</section><!-- close site-index -->
+
+            <footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+         <ul>
+             <li>
+                <a href="http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2015</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+                </a>
+            </li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.whsites.net/mediakit">Advertise</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="http://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="http://www.nytimes.com/ref/membercenter/help/agree.html" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="wide-viewport-item last-item"><a href="http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+            <li><a href="https://myaccount.nytimes.com/membercenter/feedback.html">Site Feedback</a></li>
+            <li class="wide-viewport-item last-item"><a href="http://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+
+    <div id="mobile-banner" class="mobile-banner hidden">
+        <a class="banner-message" href="http://mobile.nytimes.com/">View Mobile Version</a>
+    </div>
+
+    <div id="dfp-perf-test" class="ad hidden"></div>
+</footer>
+        </div><!-- close page -->
+    </div><!-- close shell -->
+    <script>
+require(['foundation/main'], function () {
+    require(['homepage/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['http://static01.nyt.com/bi/js/tagx/tagx.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+    <div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"4491446","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlkTFRhCXUA=","queueTime":0,"applicationTime":497,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script></body>
+</html>
