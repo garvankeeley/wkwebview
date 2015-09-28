@@ -42,17 +42,33 @@ function compose(extraBehavior) {
 
 var ran = 0;
 
-console.log('have body' + document + " : " + document.body);
+//console.log('have body' + document + " : " + document.body);
 
 if (window.frameElement) {
   setInterval(function(){
-            //  document.body.style.display = 'none';
-             // document.hidden = true;
-              var images = document.getElementsByTagName('img');
-              for(var i = 0; i < images.length; i++) {
-                //images[i].src = '';
-              }
-          }, 0);
+      var images = document.getElementsByTagName('img');
+      for(var i = 0; i < images.length; i++) {
+        var img = images[i];
+        var src = img.orig_src || '';
+        if (!img.src) continue;
+
+              if (img.src.indexOf('nytimes.com') > -1) continue;
+              
+        if (img.src.indexOf('goog') < 0 &&
+            !img.orig_src) {
+          continue;
+        }
+
+              src = img.src;
+              img.src = '';
+              img.orig_src = src;
+
+        if (src.length > 1) {
+              console.log("trying: " + src);
+              window.webkit.messageHandlers.interop.postMessage(src);
+        }
+      }
+  }, 50);
 }
 
 override(document, 'createElement', compose(function(obj) {
@@ -61,14 +77,13 @@ override(document, 'createElement', compose(function(obj) {
                                             ran = 1;
 
                                             function callback() {
-                                              console.log('sdfsdfsdf');
                                               //document.body.style.visibility = 'hidden';
                                            //   document.body.style.display = 'none';
-                                            var images = document.getElementsByTagName('img');
-                                            for(var i = 0; i < images.length; i++) {
-                                            images[i].src = '';
-                                            }
-
+                                              var images = document.getElementsByTagName('img');
+                                              for(var i = 0; i < images.length; i++) {
+                                              //  images[i].orig_src = images[i].src;
+                                              //  images[i].src = '';
+                                              }
                                             }
 
                                              document.addEventListener('DOMNodeInserted', callback, true);
@@ -81,24 +96,48 @@ override(document, 'createElement', compose(function(obj) {
                                             }
 
     if (window.frameElement) {
-     console.log("------------------======================");
+     //console.log("------------------======================");
     }
 
     if (!(obj instanceof HTMLIFrameElement)) {
       return obj;
     }
-                                            obj.style.visibility = 'hidden';
-                                            obj.style.display = 'none';
+                                            //obj.style.visibility = 'hidden';
+                                           // obj.style.display = 'none';
      obj.watch('src', function(prop, old, newval) {
        if (this.id.indexOf('google') > -1 && newval.length > 0) {
-
-
-
-
-
-               //throw new RangeError('');
-       }
+      }
        return newval; 
      });
      return obj;  
 }));
+
+
+if (window.frameElement) {
+  parent.addEventListener('message',
+    function(event) {
+            var replacesrc = 'replacesrc:';
+            if (event.data && event.data.indexOf(replacesrc) !== 0) {
+              return;
+            }
+            console.log('message received:  ' + event.data);
+            //event.source.postMessage('holla back youngin!', event.origin);
+            var src = event.data.substr(replacesrc.length);
+            var images = document.getElementsByTagName('img');
+            for(var i = 0; i < images.length; i++) {
+              var img = images[i];
+              if (img.orig_src === src) {
+                img.src = img.orig_src;
+                delete img[i].orig_src;
+              }
+            }
+    },false);
+}
+
+function replace_src(srcname) {
+  console.log('post message');
+  //for(var i = 0; i < window.frames.length; i++) {
+    //var frame = window.frames[i];
+    window.postMessage('replacesrc:' + srcname, '*');
+  //}
+}
