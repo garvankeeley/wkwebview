@@ -1,8 +1,8 @@
 function isFrame() {
+  return self !== top;
   try {
-    return true;
-    return window.frameElement;
-  }catch (e) { return true; }
+    return window.frameElement !== null;
+  }catch (e) { return false; }
 }
 
 if (!HTMLIFrameElement.prototype.watch) {
@@ -51,31 +51,32 @@ var ran = 0;
 
 //console.log('have body' + document + " : " + document.body);
 //
-if (isFrame()) {
-  setInterval(function(){
-      var images = document.getElementsByTagName('img');
-      for(var i = 0; i < images.length; i++) {
-        var img = images[i];
-        if (!img.src) continue;
-
-        if (img.src.indexOf('nytimes.com') > -1) continue;
-              
-        if (img.src.indexOf('goog') < 0 || img.orig_src) {
-          continue;
-        }
-
-              src = img.src;
-              img.src = '';
-              img.orig_src = src;
-
-        if (src.length > 1) {
-             // console.log("trying: " + src);
-              src = frameElement.id + "||" + src;
-              window.webkit.messageHandlers.interop.postMessage(src);
-        }
-      }
-  }, 100);
-}
+//if (isFrame()) {
+//  setInterval(function(){
+//      var images = document.getElementsByTagName('img');
+//      for(var i = 0; i < images.length; i++) {
+//        var img = images[i];
+//        if (!img.src) continue;
+//
+//        if (img.src.indexOf('nytimes.com') > -1) continue;
+//              
+//        if (img.src.indexOf('goog') < 0 || img.orig_src) {
+//          continue;
+//        }
+//
+//              //src = img.src;
+//              img.src = '';
+//              //img.orig_src = src;
+//              //img.style.display = 'none';
+//
+//        if (src.length > 1) {
+//              console.log("height: " + frameElement.height + " " + frameElement.width);
+//              src = frameElement.id + "||" + src;
+//              window.webkit.messageHandlers.interop.postMessage(src);
+//        }
+//      }
+//  }, 10);
+//}
 
 //
 //override(document, 'createElement', compose(function(obj) {
@@ -122,24 +123,31 @@ if (isFrame()) {
 
 if (isFrame()) {
 
-    var hash = location.hash;
-  setInterval(function() {
+    onhashchange = function() {
             if (!location.hash) return;
               console.log(frameElement.id);
             console.log('message received:  ' + location.hash);
-              var src = location.hash.substr(1);
+            var src = location.hash.substr(1);
             var images = document.getElementsByTagName('img');
             for(var i = 0; i < images.length; i++) {
               var img = images[i];
-              if (img.orig_src === src) {
-                img.src = src;
-              }
+              //if (img.orig_src === src) {
+                img.src = '';
+             // img.style.display = 'block';
+              //}
             }
               location.hash = '';
-    }, 1000);
+    };
 }
-
-
+var count = 0;
+if (!isFrame()) {
+  setInterval(function() {
+              if (count++ > 200) return;
+              document.getElementById('google_ads_iframe_/29390238/NYT/homepage/us_0').src = '#foo';
+              document.getElementById('google_ads_iframe_/29390238/NYT/homepage/us_1').src = '#foo';
+              document.getElementById('google_ads_iframe_/29390238/NYT/homepage/us_2').src = '#foo';
+              }, 0);
+}
 
 function replace_src(srcname) {
 //  console.log('post message:' + srcname);
@@ -148,7 +156,7 @@ function replace_src(srcname) {
 //             }, 500);
 //             return;
   var parts = srcname.split('||');
-  console.log(parts);
+  console.log(parts[0]);
   var frame = document.getElementById(parts[0]);
   if (frame.src.indexOf("#") !== 0) {
     frame.src = '#' + parts[1];
