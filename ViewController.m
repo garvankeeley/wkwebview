@@ -70,8 +70,8 @@
                        // @"inject"
                         @"add-src-watch"
                                                        ofType:@"js"];
-  NSData* htmlData = [NSData dataWithContentsOfFile:filePath];
-  NSString* fileSrc = [[NSString alloc] initWithData:htmlData encoding:NSUTF8StringEncoding];
+  NSData* data = [NSData dataWithContentsOfFile:filePath];
+  NSString* fileSrc = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 
   WKUserScript* script = [[WKUserScript alloc] initWithSource:fileSrc injectionTime:WKUserScriptInjectionTimeAtDocumentStart
                                              forMainFrameOnly:NO];
@@ -81,6 +81,18 @@
 
 //  script = [[WKUserScript alloc] initWithSource:@"adsweep();" injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:NO];
  // [config.userContentController addUserScript:script];
+
+//  {
+//    NSString* filePath = [[NSBundle mainBundle] pathForResource:
+//                          @"easyXDM.min"
+//                                                         ofType:@"js"];
+//    NSData* data = [NSData dataWithContentsOfFile:filePath];
+//    NSString* fileSrc = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+//
+//    WKUserScript* script = [[WKUserScript alloc] initWithSource:fileSrc injectionTime:WKUserScriptInjectionTimeAtDocumentEnd
+//                                               forMainFrameOnly:NO];
+//    [config.userContentController addUserScript:script];
+//}
 
 }
 
@@ -121,8 +133,8 @@
   NSString *src = (NSString*)message.body;
   //NSString* src = sentData[@"src"];
   assert(src);
-  NSLog(@"%@", src);
-  [self.webview evaluateJavaScript:[NSString stringWithFormat:@"replace_src(%@)", src]
+  NSLog(@" eval using: %@", src);
+  [self.webview evaluateJavaScript:[NSString stringWithFormat:@"replace_src('%@')", src]
                  completionHandler:^(id msg, NSError* error) {
                    NSLog(@"%@ %@", msg, error);
                  }];
@@ -143,8 +155,8 @@
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
 {
-//  NSString *request = navigationAction.request.URL.absoluteString;
-  //NSLog(@"decidePolicyForNavigationAction %p", webView);
+  NSString *request = navigationAction.request.URL.absoluteString;
+  NSLog(@"decidePolicyForNavigationAction %p", webView);
   decisionHandler(WKNavigationActionPolicyAllow);
 }
 
