@@ -126,7 +126,7 @@ if (isFrame()) {
     var hash = location.hash;
   setInterval(function() {
             if (!location.hash) return;
-
+              console.log(frameElement.id);
             console.log('message received:  ' + location.hash);
               var src = location.hash.substr(1);
             var images = document.getElementsByTagName('img');
@@ -144,13 +144,13 @@ if (isFrame()) {
 
 function replace_src(srcname) {
 //  console.log('post message:' + srcname);
-  setTimeout(function() {
-  document.getElementById('google_ads_iframe_/29390238/NYT/homepage/us_1').src = '#' + srcname;
-//  console.log("loc1:" + document.getElementById('google_ads_iframe_/29390238/NYT/homepage/us_1').src );
-             }, 500);
-             return;
-  for(var i = 0; i < window.frames.length; i++) {
-    var frame = window.frames[i];
+//  setTimeout(function() {
+//  document.getElementById('google_ads_iframe_/29390238/NYT/homepage/us_1').src = '#' + srcname;
+//             }, 500);
+//             return;
+  var items = document.getElementsByTagName('iframe');
+  for(var i = 0; i < items.length; i++) {
+    var frame = items[i];
     if (frame.src.indexOf("#") == 0) {
       continue;
     }
