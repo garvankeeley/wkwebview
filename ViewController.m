@@ -130,7 +130,9 @@
 - (void)userContentController:(WKUserContentController *)userContentController
       didReceiveScriptMessage:(WKScriptMessage *)message
 {
-  NSString *src = (NSString*)message.body;
+  //return;
+
+  NSString* src = (NSString*)message.body;
   //NSString* src = sentData[@"src"];
   assert(src);
   NSLog(@" eval using: %@", src);
@@ -156,7 +158,6 @@
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
 {
   NSString *request = navigationAction.request.URL.absoluteString;
-  NSLog(@"decidePolicyForNavigationAction %p", webView);
   decisionHandler(WKNavigationActionPolicyAllow);
 }
 

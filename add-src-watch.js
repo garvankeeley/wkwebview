@@ -57,25 +57,24 @@ if (isFrame()) {
       for(var i = 0; i < images.length; i++) {
         var img = images[i];
         if (!img.src) continue;
-        var src = img.orig_src || '';
 
         if (img.src.indexOf('nytimes.com') > -1) continue;
               
-        if (img.src.indexOf('goog') < 0 &&
-            !img.orig_src) {
+        if (img.src.indexOf('goog') < 0 || img.orig_src) {
           continue;
         }
 
               src = img.src;
-              //img.src = '';
+              img.src = '';
               img.orig_src = src;
 
         if (src.length > 1) {
              // console.log("trying: " + src);
+              src = frameElement.id + "||" + src;
               window.webkit.messageHandlers.interop.postMessage(src);
         }
       }
-  }, 5000);
+  }, 100);
 }
 
 //
@@ -148,12 +147,10 @@ function replace_src(srcname) {
 //  document.getElementById('google_ads_iframe_/29390238/NYT/homepage/us_1').src = '#' + srcname;
 //             }, 500);
 //             return;
-  var items = document.getElementsByTagName('iframe');
-  for(var i = 0; i < items.length; i++) {
-    var frame = items[i];
-    if (frame.src.indexOf("#") == 0) {
-      continue;
-    }
-    frame.src = '#' + srcname;
+  var parts = srcname.split('||');
+  console.log(parts);
+  var frame = document.getElementById(parts[0]);
+  if (frame.src.indexOf("#") !== 0) {
+    frame.src = '#' + parts[1];
   }
 }
